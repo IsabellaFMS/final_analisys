@@ -1,0 +1,192 @@
+id;Prediction SignalP;Prediction Deep;strategic_classification;classification
+NP_042052.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_042057.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Partial (CPXV+VACV+VARV)
+NP_042058.1;;E+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (VARV)
+NP_042061.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_042063.1;SP;SP;Group 1: High Confidence Consensus (SP+/THMM+);Conserved
+NP_042064.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (VARV)
+NP_042071.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_042083.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_042092.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_042096.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_042100.1;;SP+TM;Group 3: DeepTMHMM Only (SP-/THMM+);Conserved
+NP_042122.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_042125.1;;E+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_042129.1;;TM;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_042137.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_042146.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_042148.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_042149.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_042150.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_042157.1;;SP+TM;Group 3: DeepTMHMM Only (SP-/THMM+);Conserved
+NP_042165.1;;TM;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_042168.1;SP;I+GLOB;Group 2: SignalP Only (SP+/THMM-);Conserved
+NP_042181.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_042182.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_042183.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_042184.1;;TM;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_042186.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_042188.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (VARV)
+NP_042189.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_042190.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_042192.1;SP;SP;Group 1: High Confidence Consensus (SP+/THMM+);Partial (CPXV+VACV+VARV)
+NP_042194.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Partial (CPXV+VACV+VARV)
+NP_042195.1;;TM;Group 4: Negative Consensus (SP-/THMM-);Partial (CPXV+VACV+VARV)
+NP_042196.1;SP;SP;Group 1: High Confidence Consensus (SP+/THMM+);Conserved
+NP_042202.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_042205.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Partial (CPXV+VACV+VARV)
+NP_042209.1;;E+GLOB;Group 4: Negative Consensus (SP-/THMM-);Partial (CPXV+VACV+VARV)
+NP_042214.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (VARV)
+NP_042216.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (VARV)
+NP_042217.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (VARV)
+NP_042223.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (VARV)
+NP_042228.1;;E+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (VARV)
+NP_619792.1;SP;SP;Group 1: High Confidence Consensus (SP+/THMM+);Conserved
+NP_619793.1;SP;SP;Group 1: High Confidence Consensus (SP+/THMM+);Conserved
+NP_619795.2;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (CPXV)
+NP_619818.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619819.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619820.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (CPXV)
+NP_619821.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619826.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619827.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619851.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619864.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619867.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619871.1;;TM;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619877.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619880.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619889.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619892.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619904.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619910.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619913.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619915.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619917.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619920.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619928.1;;SP+TM;Group 3: DeepTMHMM Only (SP-/THMM+);Conserved
+NP_619929.1;;TM;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619930.1;;TM;Group 4: Negative Consensus (SP-/THMM-);Partial (CPXV+MPXV+VACV)
+NP_619931.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619935.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619936.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (CPXV)
+NP_619937.1;SP;I+GLOB;Group 2: SignalP Only (SP+/THMM-);Conserved
+NP_619944.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (CPXV)
+NP_619945.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619949.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619950.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619951.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619954.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619957.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619960.1;SP;SP;Group 1: High Confidence Consensus (SP+/THMM+);Conserved
+NP_619961.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619963.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Partial (CPXV+MPXV+VACV)
+NP_619966.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619969.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Partial (CPXV+VACV+VARV)
+NP_619973.1;SP;SP;Group 1: High Confidence Consensus (SP+/THMM+);Partial (CPXV+VACV)
+NP_619981.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_619982.1;SP;SP;Group 1: High Confidence Consensus (SP+/THMM+);Partial (CPXV+MPXV+VACV)
+NP_619983.1;SP;SP;Group 1: High Confidence Consensus (SP+/THMM+);Conserved
+NP_619984.1;SP;SP;Group 1: High Confidence Consensus (SP+/THMM+);Partial (CPXV+MPXV+VACV)
+NP_619986.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Partial (CPXV+MPXV+VACV)
+NP_619996.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Partial (CPXV+VACV)
+NP_620002.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Partial (CPXV+MPXV+VARV)
+NP_620003.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (CPXV)
+NP_620004.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_620007.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (CPXV)
+NP_620008.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (CPXV)
+NP_851584.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (CPXV)
+NP_851585.1;;TM;Group 4: Negative Consensus (SP-/THMM-);Conserved
+NP_851586.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (CPXV)
+NP_851588.1;;SP;Group 3: DeepTMHMM Only (SP-/THMM+);Exclusive (CPXV)
+NP_851590.1;;TM;Group 4: Negative Consensus (SP-/THMM-);Partial (CPXV+VACV+VARV)
+NP_851591.1;;SP;Group 3: DeepTMHMM Only (SP-/THMM+);Exclusive (CPXV)
+NP_851593.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (CPXV)
+NP_851781.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (CPXV)
+YP_010377008.1;SP;SP;Group 1: High Confidence Consensus (SP+/THMM+);Conserved
+YP_010377012.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_010377013.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_010377018.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_010377019.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_010377021.1;SP;SP;Group 1: High Confidence Consensus (SP+/THMM+);Conserved
+YP_010377027.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_010377035.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_010377043.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_010377056.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_010377070.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_010377082.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_010377085.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_010377097.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_010377106.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_010377108.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_010377110.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_010377117.1;;TM;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_010377121.1;;TM;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_010377123.1;;TM;Group 4: Negative Consensus (SP-/THMM-);Partial (CPXV+MPXV+VACV)
+YP_010377138.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_010377140.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_010377141.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_010377144.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_010377148.1;SP;SP;Group 1: High Confidence Consensus (SP+/THMM+);Conserved
+YP_010377163.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_010377164.1;SP;SP;Group 1: High Confidence Consensus (SP+/THMM+);Partial (CPXV+MPXV+VACV)
+YP_010377165.1;SP;SP;Group 1: High Confidence Consensus (SP+/THMM+);Conserved
+YP_010377166.1;SP;SP;Group 1: High Confidence Consensus (SP+/THMM+);Partial (CPXV+MPXV+VACV)
+YP_010377177.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Partial (CPXV+MPXV+VARV)
+YP_010377179.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_010377180.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_010377181.1;SP;SP;Group 1: High Confidence Consensus (SP+/THMM+);Conserved
+YP_010377182.1;SP;SP;Group 1: High Confidence Consensus (SP+/THMM+);Conserved
+YP_010377184.1;SP;SP;Group 1: High Confidence Consensus (SP+/THMM+);Partial (CPXV+MPXV)
+YP_010415322.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_232885.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (VACV)
+YP_232889.1;;E+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (VACV)
+YP_232890.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_232894.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_232897.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_232903.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_232911.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_232913.1;SP;SP;Group 1: High Confidence Consensus (SP+/THMM+);Conserved
+YP_232921.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_232936.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_232963.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_232965.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_232968.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_232971.1;;TM;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_232975.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_232978.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_232999.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_233001.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_233003.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_233010.1;;TM;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_233015.1;;TM;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_233016.1;;TM;Group 4: Negative Consensus (SP-/THMM-);Partial (CPXV+MPXV+VACV)
+YP_233022.1;SP;I+GLOB;Group 2: SignalP Only (SP+/THMM-);Conserved
+YP_233035.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_233036.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_233037.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_233040.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_233047.1;;TM;Group 4: Negative Consensus (SP-/THMM-);Partial (CPXV+VACV+VARV)
+YP_233048.1;SP;SP;Group 1: High Confidence Consensus (SP+/THMM+);Conserved
+YP_233049.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_233057.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Partial (CPXV+VACV+VARV)
+YP_233071.1;SP;SP;Group 1: High Confidence Consensus (SP+/THMM+);Partial (CPXV+MPXV+VACV)
+YP_233078.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_233083.1;;E+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (VACV)
+YP_233084.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (VACV)
+YP_233086.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Partial (CPXV+VACV+VARV)
+YP_233088.1;SP;SP;Group 1: High Confidence Consensus (SP+/THMM+);Partial (CPXV+MPXV+VACV)
+YP_233089.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_233091.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_233092.1;SP;SP+TM;Group 1: High Confidence Consensus (SP+/THMM+);Conserved
+YP_233093.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_233094.1;;E+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (VACV)
+YP_233095.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (VACV)
+YP_233096.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (VACV)
+YP_233097.1;SP;SP;Group 1: High Confidence Consensus (SP+/THMM+);Conserved
+YP_233098.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Exclusive (VACV)
+YP_233099.1;;SP;Group 3: DeepTMHMM Only (SP-/THMM+);Exclusive (VACV)
+YP_233100.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Conserved
+YP_910497.1;;I+GLOB;Group 4: Negative Consensus (SP-/THMM-);Partial (MPXV+VACV)
+YP_910498.1;;TM;Group 4: Negative Consensus (SP-/THMM-);Partial (MPXV+VACV)
+YP_910501.1;;SP;Group 3: DeepTMHMM Only (SP-/THMM+);Partial (CPXV+VACV)

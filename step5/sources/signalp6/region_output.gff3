@@ -1,0 +1,85 @@
+## gff-version 3
+YP_010377184.1 |Brix domain protein [Monkeypox virus]	SignalP-6.0	n-region	1	4	.	.	.	.
+YP_010377184.1 |Brix domain protein [Monkeypox virus]	SignalP-6.0	h-region	5	18	.	.	.	.
+YP_010377184.1 |Brix domain protein [Monkeypox virus]	SignalP-6.0	c-region	19	21	.	.	.	.
+YP_010377008.1 |Interleukin-18-binding protein [Monkeypox virus]	SignalP-6.0	n-region	1	2	.	.	.	.
+YP_010377008.1 |Interleukin-18-binding protein [Monkeypox virus]	SignalP-6.0	h-region	3	13	.	.	.	.
+YP_010377008.1 |Interleukin-18-binding protein [Monkeypox virus]	SignalP-6.0	c-region	14	20	.	.	.	.
+YP_010377021.1 |NFkB inhibitor [Monkeypox virus]	SignalP-6.0	n-region	1	2	.	.	.	.
+YP_010377021.1 |NFkB inhibitor [Monkeypox virus]	SignalP-6.0	h-region	3	14	.	.	.	.
+YP_010377021.1 |NFkB inhibitor [Monkeypox virus]	SignalP-6.0	c-region	15	17	.	.	.	.
+YP_010377148.1 |Chemokine binding protein [Monkeypox virus]	SignalP-6.0	n-region	1	2	.	.	.	.
+YP_010377148.1 |Chemokine binding protein [Monkeypox virus]	SignalP-6.0	h-region	3	14	.	.	.	.
+YP_010377148.1 |Chemokine binding protein [Monkeypox virus]	SignalP-6.0	c-region	15	17	.	.	.	.
+YP_010377164.1 |Virulence protein [Monkeypox virus]	SignalP-6.0	n-region	1	4	.	.	.	.
+YP_010377164.1 |Virulence protein [Monkeypox virus]	SignalP-6.0	h-region	5	14	.	.	.	.
+YP_010377164.1 |Virulence protein [Monkeypox virus]	SignalP-6.0	c-region	15	17	.	.	.	.
+YP_010377165.1 |Soluble interferon-gamma receptor-like protein [Monkeypox virus]	SignalP-6.0	n-region	1	2	.	.	.	.
+YP_010377165.1 |Soluble interferon-gamma receptor-like protein [Monkeypox virus]	SignalP-6.0	h-region	3	12	.	.	.	.
+YP_010377165.1 |Soluble interferon-gamma receptor-like protein [Monkeypox virus]	SignalP-6.0	c-region	13	17	.	.	.	.
+YP_010377166.1 |Intracellular viral protein [Monkeypox virus]	SignalP-6.0	n-region	1	2	.	.	.	.
+YP_010377166.1 |Intracellular viral protein [Monkeypox virus]	SignalP-6.0	h-region	3	13	.	.	.	.
+YP_010377166.1 |Intracellular viral protein [Monkeypox virus]	SignalP-6.0	c-region	14	16	.	.	.	.
+YP_010377181.1 |Crm-B secreted TNF-alpha-receptor-like protein [Monkeypox virus]	SignalP-6.0	n-region	1	2	.	.	.	.
+YP_010377181.1 |Crm-B secreted TNF-alpha-receptor-like protein [Monkeypox virus]	SignalP-6.0	h-region	3	16	.	.	.	.
+YP_010377181.1 |Crm-B secreted TNF-alpha-receptor-like protein [Monkeypox virus]	SignalP-6.0	c-region	17	19	.	.	.	.
+YP_010377182.1 |Chemokine binding protein [Monkeypox virus]	SignalP-6.0	n-region	1	3	.	.	.	.
+YP_010377182.1 |Chemokine binding protein [Monkeypox virus]	SignalP-6.0	h-region	4	13	.	.	.	.
+YP_010377182.1 |Chemokine binding protein [Monkeypox virus]	SignalP-6.0	c-region	14	22	.	.	.	.
+YP_232913.1 |hypothetical protein VACWR031 [Vaccinia virus]	SignalP-6.0	n-region	1	2	.	.	.	.
+YP_232913.1 |hypothetical protein VACWR031 [Vaccinia virus]	SignalP-6.0	h-region	3	14	.	.	.	.
+YP_232913.1 |hypothetical protein VACWR031 [Vaccinia virus]	SignalP-6.0	c-region	15	17	.	.	.	.
+YP_233022.1 |Membrane protein [Vaccinia virus]	SignalP-6.0	n-region	1	2	.	.	.	.
+YP_233022.1 |Membrane protein [Vaccinia virus]	SignalP-6.0	h-region	3	19	.	.	.	.
+YP_233022.1 |Membrane protein [Vaccinia virus]	SignalP-6.0	c-region	20	23	.	.	.	.
+YP_233048.1 |secreted glycoprotein [Vaccinia virus]	SignalP-6.0	n-region	1	2	.	.	.	.
+YP_233048.1 |secreted glycoprotein [Vaccinia virus]	SignalP-6.0	h-region	3	14	.	.	.	.
+YP_233048.1 |secreted glycoprotein [Vaccinia virus]	SignalP-6.0	c-region	15	17	.	.	.	.
+YP_233071.1 |21kDa precursor protein [Vaccinia virus]	SignalP-6.0	n-region	1	4	.	.	.	.
+YP_233071.1 |21kDa precursor protein [Vaccinia virus]	SignalP-6.0	h-region	5	13	.	.	.	.
+YP_233071.1 |21kDa precursor protein [Vaccinia virus]	SignalP-6.0	c-region	14	16	.	.	.	.
+YP_233088.1 |hypothetical protein VACWR206 [Vaccinia virus]	SignalP-6.0	n-region	1	3	.	.	.	.
+YP_233088.1 |hypothetical protein VACWR206 [Vaccinia virus]	SignalP-6.0	h-region	4	14	.	.	.	.
+YP_233088.1 |hypothetical protein VACWR206 [Vaccinia virus]	SignalP-6.0	c-region	15	18	.	.	.	.
+YP_233092.1 |secreted epidermal growth factor-like protein [Vaccinia virus]	SignalP-6.0	n-region	1	4	.	.	.	.
+YP_233092.1 |secreted epidermal growth factor-like protein [Vaccinia virus]	SignalP-6.0	h-region	5	15	.	.	.	.
+YP_233092.1 |secreted epidermal growth factor-like protein [Vaccinia virus]	SignalP-6.0	c-region	16	19	.	.	.	.
+YP_233097.1 |TNF-alpha-receptor-like protein [Vaccinia virus]	SignalP-6.0	n-region	1	2	.	.	.	.
+YP_233097.1 |TNF-alpha-receptor-like protein [Vaccinia virus]	SignalP-6.0	h-region	3	16	.	.	.	.
+YP_233097.1 |TNF-alpha-receptor-like protein [Vaccinia virus]	SignalP-6.0	c-region	17	19	.	.	.	.
+NP_619937.1 |CPXV153 protein [Cowpox virus]	SignalP-6.0	n-region	1	2	.	.	.	.
+NP_619937.1 |CPXV153 protein [Cowpox virus]	SignalP-6.0	h-region	3	19	.	.	.	.
+NP_619937.1 |CPXV153 protein [Cowpox virus]	SignalP-6.0	c-region	20	23	.	.	.	.
+NP_619960.1 |CPXV178 protein [Cowpox virus]	SignalP-6.0	n-region	1	2	.	.	.	.
+NP_619960.1 |CPXV178 protein [Cowpox virus]	SignalP-6.0	h-region	3	13	.	.	.	.
+NP_619960.1 |CPXV178 protein [Cowpox virus]	SignalP-6.0	c-region	14	16	.	.	.	.
+NP_619973.1 |CrmC or CPXV191 protein [Cowpox virus]	SignalP-6.0	n-region	1	2	.	.	.	.
+NP_619973.1 |CrmC or CPXV191 protein [Cowpox virus]	SignalP-6.0	h-region	3	18	.	.	.	.
+NP_619973.1 |CrmC or CPXV191 protein [Cowpox virus]	SignalP-6.0	c-region	19	21	.	.	.	.
+NP_619982.1 |CPXV201 protein [Cowpox virus]	SignalP-6.0	n-region	1	4	.	.	.	.
+NP_619982.1 |CPXV201 protein [Cowpox virus]	SignalP-6.0	h-region	5	14	.	.	.	.
+NP_619982.1 |CPXV201 protein [Cowpox virus]	SignalP-6.0	c-region	15	17	.	.	.	.
+NP_619983.1 |CPXV202 protein [Cowpox virus]	SignalP-6.0	n-region	1	2	.	.	.	.
+NP_619983.1 |CPXV202 protein [Cowpox virus]	SignalP-6.0	h-region	3	11	.	.	.	.
+NP_619983.1 |CPXV202 protein [Cowpox virus]	SignalP-6.0	c-region	12	16	.	.	.	.
+NP_619984.1 |CPXV203 protein [Cowpox virus]	SignalP-6.0	n-region	1	2	.	.	.	.
+NP_619984.1 |CPXV203 protein [Cowpox virus]	SignalP-6.0	h-region	3	13	.	.	.	.
+NP_619984.1 |CPXV203 protein [Cowpox virus]	SignalP-6.0	c-region	14	16	.	.	.	.
+NP_619792.1 |vCCI or CPXV003 protein [Cowpox virus]	SignalP-6.0	n-region	1	3	.	.	.	.
+NP_619792.1 |vCCI or CPXV003 protein [Cowpox virus]	SignalP-6.0	h-region	4	16	.	.	.	.
+NP_619792.1 |vCCI or CPXV003 protein [Cowpox virus]	SignalP-6.0	c-region	17	21	.	.	.	.
+NP_619793.1 |CrmB or CPXV005 protein [Cowpox virus]	SignalP-6.0	n-region	1	2	.	.	.	.
+NP_619793.1 |CrmB or CPXV005 protein [Cowpox virus]	SignalP-6.0	h-region	3	15	.	.	.	.
+NP_619793.1 |CrmB or CPXV005 protein [Cowpox virus]	SignalP-6.0	c-region	16	18	.	.	.	.
+NP_042063.1 |hypothetical protein VARVgp019 [Variola virus]	SignalP-6.0	n-region	1	2	.	.	.	.
+NP_042063.1 |hypothetical protein VARVgp019 [Variola virus]	SignalP-6.0	h-region	3	14	.	.	.	.
+NP_042063.1 |hypothetical protein VARVgp019 [Variola virus]	SignalP-6.0	c-region	15	17	.	.	.	.
+NP_042168.1 |IMV membrane protein [Variola virus]	SignalP-6.0	n-region	1	2	.	.	.	.
+NP_042168.1 |IMV membrane protein [Variola virus]	SignalP-6.0	h-region	3	19	.	.	.	.
+NP_042168.1 |IMV membrane protein [Variola virus]	SignalP-6.0	c-region	20	23	.	.	.	.
+NP_042192.1 |semaphorin-like protein [Variola virus]	SignalP-6.0	n-region	1	1	.	.	.	.
+NP_042192.1 |semaphorin-like protein [Variola virus]	SignalP-6.0	h-region	2	11	.	.	.	.
+NP_042192.1 |semaphorin-like protein [Variola virus]	SignalP-6.0	c-region	12	14	.	.	.	.
+NP_042196.1 |hypothetical protein VARVgp152 [Variola virus]	SignalP-6.0	n-region	1	2	.	.	.	.
+NP_042196.1 |hypothetical protein VARVgp152 [Variola virus]	SignalP-6.0	h-region	3	14	.	.	.	.
+NP_042196.1 |hypothetical protein VARVgp152 [Variola virus]	SignalP-6.0	c-region	15	17	.	.	.	.

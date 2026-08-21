@@ -1,0 +1,82 @@
+query_seqname,protein_id,reason,sequence_length,kept_instead,source_index
+sp|P01594|KV133_HUMAN Immunoglobulin kappa variable 1-33 OS=Homo sapiens OX=9606 GN=IGKV1-33 PE=1 SV=2,P01594,Duplicate,117,P01593,1902
+sp|P0CG08|GPHRB_HUMAN Golgi pH regulator B OS=Homo sapiens OX=9606 GN=GPR89B PE=1 SV=1,P0CG08,Duplicate,455,B7ZAQ6,2439
+sp|P0DI82|TPC2B_HUMAN Trafficking protein particle complex subunit 2B OS=Homo sapiens OX=9606 GN=TRAPPC2B PE=1 SV=1,P0DI82,Duplicate,140,P0DI81,2447
+sp|P0DMN0|ST1A4_HUMAN Sulfotransferase 1A4 OS=Homo sapiens OX=9606 GN=SULT1A4 PE=1 SV=1,P0DMN0,Duplicate,295,P0DMM9,2462
+sp|P0DMV9|HS71B_HUMAN Heat shock 70 kDa protein 1B OS=Homo sapiens OX=9606 GN=HSPA1B PE=1 SV=1,P0DMV9,Duplicate,641,P0DMV8,2466
+sp|P0DP24|CALM2_HUMAN Calmodulin-2 OS=Homo sapiens OX=9606 GN=CALM2 PE=1 SV=1,P0DP24,Duplicate,149,P0DP23,2473
+sp|P0DP25|CALM3_HUMAN Calmodulin-3 OS=Homo sapiens OX=9606 GN=CALM3 PE=1 SV=1,P0DP25,Duplicate,149,P0DP23,2474
+sp|P0DPH8|TBA3D_HUMAN Tubulin alpha-3D chain OS=Homo sapiens OX=9606 GN=TUBA3D PE=1 SV=1,P0DPH8,Duplicate,450,P0DPH7,2484
+sp|P0DTE8|AMY1C_HUMAN Alpha-amylase 1C OS=Homo sapiens OX=9606 GN=AMY1C PE=1 SV=1,P0DTE8,Duplicate,511,P0DTE7,2493
+sp|P0DUB6|AMY1A_HUMAN Alpha-amylase 1A OS=Homo sapiens OX=9606 GN=AMY1A PE=1 SV=1,P0DUB6,Duplicate,511,P0DTE7,2496
+sp|P86480|PR20D_HUMAN Proline-rich protein 20D OS=Homo sapiens OX=9606 GN=PRR20D PE=1 SV=1,P86480,Duplicate,221,P86479,5258
+sp|P04432|KVD39_HUMAN Immunoglobulin kappa variable 1D-39 OS=Homo sapiens OX=9606 GN=IGKV1D-39 PE=3 SV=2,P04432,Duplicate,117,P01597,14908
+sp|P0C7H8|KRA23_HUMAN Keratin-associated protein 2-3 OS=Homo sapiens OX=9606 GN=KRTAP2-3 PE=1 SV=2,P0C7H8,Duplicate,128,Q9BYR9,14925
+sp|P0DN77|OPSG2_HUMAN Medium-wave-sensitive opsin 2 OS=Homo sapiens OX=9606 GN=OPN1MW2 PE=3 SV=1,P0DN77,Duplicate,364,P04001,14943
+sp|P0DN78|OPSG3_HUMAN Medium-wave-sensitive opsin 3 OS=Homo sapiens OX=9606 GN=OPN1MW3 PE=3 SV=1,P0DN78,Duplicate,364,P04001,14944
+sp|Q9YNA8|GAK19_HUMAN Endogenous retrovirus group K member 19 Gag polyprotein OS=Homo sapiens OX=9606 GN=ERVK-19 PE=1 SV=3,Q9YNA8,Duplicate,666,P62684,16557
+sp|A0A075B6P5|KV228_HUMAN Immunoglobulin kappa variable 2-28 OS=Homo sapiens OX=9606 GN=IGKV2-28 PE=3 SV=1,A0A075B6P5,Duplicate,120,P01615,16583
+sp|A0A087WW87|KV240_HUMAN Immunoglobulin kappa variable 2-40 OS=Homo sapiens OX=9606 GN=IGKV2-40 PE=3 SV=2,A0A087WW87,Duplicate,121,P01614,16611
+sp|P0CG35|TB15B_HUMAN Thymosin beta-15B OS=Homo sapiens OX=9606 GN=TMSB15B PE=1 SV=1,P0CG35,Duplicate,45,P0CG34,17082
+sp|P0CL82|GG12I_HUMAN G antigen 12I OS=Homo sapiens OX=9606 GN=GAGE12I PE=1 SV=1,P0CL82,Duplicate,117,O76087,17092
+sp|P0CW01|TSPYA_HUMAN Testis-specific Y-encoded protein 10 OS=Homo sapiens OX=9606 GN=TSPY10 PE=1 SV=2,P0CW01,Duplicate,308,P0CV98,17096
+sp|P0DP03|HVC05_HUMAN Immunoglobulin heavy variable 3-30-5 OS=Homo sapiens OX=9606 GN=IGHV3-30-5 PE=3 SV=1,P0DP03,Duplicate,117,P01768,17113
+sp|P0DP09|KV113_HUMAN Immunoglobulin kappa variable 1-13 OS=Homo sapiens OX=9606 GN=IGKV1-13 PE=3 SV=1,P0DP09,Duplicate,117,A0A0B4J2D9,17118
+sp|P0DP74|D130A_HUMAN Beta-defensin 130A OS=Homo sapiens OX=9606 GN=DEFB130A PE=2 SV=1,P0DP74,Duplicate,79,P0DP73,17121
+sp|P0DPF7|TVB63_HUMAN T cell receptor beta variable 6-3 OS=Homo sapiens OX=9606 GN=TRBV6-3 PE=3 SV=1,P0DPF7,Duplicate,114,A0A0J9YXY3,17126
+sp|P0DSN7|KVD37_HUMAN Probable non-functional immunoglobulinn kappa variable 1D-37 OS=Homo sapiens OX=9606 GN=IGKV1D-37 PE=1 SV=1,P0DSN7,Duplicate,117,A0A075B6S9,17129
+sp|P86790|CCZ1B_HUMAN Vacuolar fusion protein CCZ1 homolog B OS=Homo sapiens OX=9606 GN=CCZ1B PE=1 SV=1,P86790,Duplicate,482,P86791,17197
+sp|Q6IPX1|TBC3C_HUMAN TBC1 domain family member 3C OS=Homo sapiens OX=9606 GN=TBC1D3C PE=2 SV=3,Q6IPX1,Duplicate,549,Q8IZP1,17512
+sp|E5RIL1|UPKL2_HUMAN Uroplakin-3b-like protein 2 OS=Homo sapiens OX=9606 GN=UPK3BL2 PE=3 SV=2,E5RIL1,Duplicate,263,B0FP48,19072
+sp|H0Y7S4|PRA26_HUMAN PRAME family member 26 OS=Homo sapiens OX=9606 GN=PRAMEF26 PE=3 SV=3,H0Y7S4,Duplicate,478,A6NGN4,19097
+sp|H3BUK9|POTB2_HUMAN POTE ankyrin domain family member B2 OS=Homo sapiens OX=9606 GN=POTEB2 PE=3 SV=1,H3BUK9,Duplicate,544,A0A0A6YYL3,19110
+sp|P0CJ86|DU4L3_HUMAN Double homeobox protein 4-like protein 3 OS=Homo sapiens OX=9606 GN=DUX4L3 PE=3 SV=1,P0CJ86,Duplicate,424,P0CJ85,19203
+sp|P0CJ88|DU4L5_HUMAN Double homeobox protein 4-like protein 5 OS=Homo sapiens OX=9606 GN=DUX4L5 PE=3 SV=1,P0CJ88,Duplicate,424,P0CJ85,19205
+sp|P0CJ89|DU4L6_HUMAN Double homeobox protein 4-like protein 6 OS=Homo sapiens OX=9606 GN=DUX4L6 PE=3 SV=1,P0CJ89,Duplicate,424,P0CJ85,19206
+sp|P0CJ90|DU4L7_HUMAN Double homeobox protein 4-like protein 7 OS=Homo sapiens OX=9606 GN=DUX4L7 PE=3 SV=1,P0CJ90,Duplicate,424,P0CJ85,19207
+sp|P0CL80|GG12F_HUMAN G antigen 12F OS=Homo sapiens OX=9606 GN=GAGE12F PE=3 SV=1,P0CL80,Duplicate,117,O76087,19209
+sp|P0CL81|GG12G_HUMAN G antigen 12G OS=Homo sapiens OX=9606 GN=GAGE12G PE=3 SV=1,P0CL81,Duplicate,117,O76087,19210
+sp|P0CW19|LIMS3_HUMAN LIM and senescent cell antigen-like-containing domain protein 3 OS=Homo sapiens OX=9606 GN=LIMS3 PE=2 SV=1,P0CW19,Duplicate,117,P0CW20,19214
+sp|P0DMB1|P23D2_HUMAN Proline-rich protein 23D2 OS=Homo sapiens OX=9606 GN=PRR23D2 PE=3 SV=1,P0DMB1,Duplicate,279,E9PI22,19226
+sp|P0DMP1|HMN12_HUMAN Humanin-like 12 OS=Homo sapiens OX=9606 GN=MTRNR2L12 PE=3 SV=2,P0DMP1,Duplicate,24,P0CJ75,19228
+sp|P0DMR1|HNRC4_HUMAN Heterogeneous nuclear ribonucleoprotein C-like 4 OS=Homo sapiens OX=9606 GN=HNRNPCL4 PE=3 SV=1,P0DMR1,Duplicate,293,B7ZW38,19230
+sp|P0DMU8|CT455_HUMAN Cancer/testis antigen family 45 member A5 OS=Homo sapiens OX=9606 GN=CT45A5 PE=2 SV=1,P0DMU8,Duplicate,189,P0DMU7,19235
+sp|P0DMV0|CT457_HUMAN Cancer/testis antigen family 45 member A7 OS=Homo sapiens OX=9606 GN=CT45A7 PE=3 SV=1,P0DMV0,Duplicate,189,P0DMU7,19236
+sp|P0DN26|PAL4F_HUMAN Peptidyl-prolyl cis-trans isomerase A-like 4F OS=Homo sapiens OX=9606 GN=PPIAL4F PE=3 SV=1,P0DN26,Duplicate,164,A0A075B759,19238
+sp|P0DOY5|HD101_HUMAN Immunoglobulin heavy diversity 1-1 OS=Homo sapiens OX=9606 GN=IGHD1-1 PE=4 SV=1,P0DOY5,Short,5,,19241
+sp|P0DPI3|CENL2_HUMAN Centromere protein V-like protein 2 OS=Homo sapiens OX=9606 GN=CENPVL2 PE=3 SV=1,P0DPI3,Duplicate,272,A0A0U1RR11,19250
+sp|P0DPI4|TDB01_HUMAN T cell receptor beta diversity 1 OS=Homo sapiens OX=9606 GN=TRBD1 PE=4 SV=1,P0DPI4,Short,4,,19251
+sp|P0DPR3|TRDD1_HUMAN T cell receptor delta diversity 1 OS=Homo sapiens OX=9606 GN=TRDD1 PE=1 SV=1,P0DPR3,Short,2,,19252
+sp|P0DTA3|SPD11_HUMAN Speedy protein E11 OS=Homo sapiens OX=9606 GN=SPDYE11 PE=3 SV=1,P0DTA3,Duplicate,265,A0A494C191,19257
+sp|P0DUD1|SPD8_HUMAN Speedy protein E8 OS=Homo sapiens OX=9606 GN=SPDYE8 PE=3 SV=1,P0DUD1,Duplicate,265,A0A494C191,19261
+sp|P0DUD2|SPD17_HUMAN Speedy protein E17 OS=Homo sapiens OX=9606 GN=SPDYE17 PE=3 SV=1,P0DUD2,Duplicate,265,A0A494C191,19262
+sp|P0DUD3|SPD14_HUMAN Speedy protein E14 OS=Homo sapiens OX=9606 GN=SPDYE14 PE=3 SV=1,P0DUD3,Duplicate,265,A0A494C0Z2,19263
+sp|P0DUD4|SPD15_HUMAN Speedy protein E15 OS=Homo sapiens OX=9606 GN=SPDYE15 PE=3 SV=1,P0DUD4,Duplicate,265,A0A494C0Z2,19264
+sp|P0DUQ1|PRA15_HUMAN PRAME family member 15 OS=Homo sapiens OX=9606 GN=PRAMEF15 PE=2 SV=1,P0DUQ1,Duplicate,478,P0DUQ2,19265
+sp|P0DUX0|SPD10_HUMAN Speedy protein E10 OS=Homo sapiens OX=9606 GN=SPDYE10 PE=3 SV=1,P0DUX0,Duplicate,265,A0A494C191,19266
+sp|P0DV74|F90AH_HUMAN Protein FAM90A17 OS=Homo sapiens OX=9606 GN=FAM90A17 PE=3 SV=1,P0DV74,Duplicate,464,P0DV73,19269
+sp|P0DV76|F90AJ_HUMAN Protein FAM90A19 OS=Homo sapiens OX=9606 GN=FAM90A19 PE=3 SV=1,P0DV76,Duplicate,464,P0DV75,19271
+sp|P0DW11|TFKL6_HUMAN TATA-box-binding protein-associated factor 11-like protein 6 OS=Homo sapiens OX=9606 GN=TAF11L6 PE=2 SV=1,P0DW11,Duplicate,198,A0A1W2PP81,19273
+sp|P0DW12|TFKL7_HUMAN TATA-box-binding protein-associated factor 11-like protein 7 OS=Homo sapiens OX=9606 GN=TAF11L7 PE=2 SV=1,P0DW12,Duplicate,198,A0A1W2PP81,19274
+sp|P0DW13|TFKL8_HUMAN TATA-box-binding protein-associated factor 11-like protein 8 OS=Homo sapiens OX=9606 GN=TAF11L8 PE=2 SV=1,P0DW13,Duplicate,198,A0A1W2PP81,19275
+sp|P0DW14|TFKLJ_HUMAN TATA-box-binding protein-associated factor 11-like protein 10 OS=Homo sapiens OX=9606 GN=TAF11L10 PE=2 SV=1,P0DW14,Duplicate,198,A0A1W2PP81,19276
+sp|P0DX04|TB15C_HUMAN Thymosin beta-15C OS=Homo sapiens OX=9606 GN=TMSB15C PE=3 SV=1,P0DX04,Duplicate,45,P0CG34,19281
+sp|P0DY27|D109C_HUMAN Beta-defensin 109C OS=Homo sapiens OX=9606 GN=DEFB109C PE=3 SV=1,P0DY27,Duplicate,87,Q30KR1,19284
+sp|P61572|REC19_HUMAN Endogenous retrovirus group K member 19 Rec protein OS=Homo sapiens OX=9606 GN=ERVK-19 PE=1 SV=1,P61572,Duplicate,105,Q69383,19298
+sp|P61573|REC9_HUMAN Endogenous retrovirus group K member 9 Rec protein OS=Homo sapiens OX=9606 GN=ERVK-9 PE=1 SV=1,P61573,Duplicate,105,Q69383,19299
+sp|P61574|RE113_HUMAN Endogenous retrovirus group K member 113 Rec protein OS=Homo sapiens OX=9606 GN=HERVK_113 PE=1 SV=2,P61574,Duplicate,105,Q69383,19300
+sp|P61579|ERK25_HUMAN Endogenous retrovirus group K member 25 Rec protein OS=Homo sapiens OX=9606 GN=ERVK-25 PE=1 SV=1,P61579,Duplicate,105,Q69383,19304
+sp|P86478|PR20E_HUMAN Proline-rich protein 20E OS=Homo sapiens OX=9606 GN=PRR20E PE=1 SV=1,P86478,Duplicate,221,P86479,19310
+sp|P86481|PR20B_HUMAN Proline-rich protein 20B OS=Homo sapiens OX=9606 GN=PRR20B PE=3 SV=1,P86481,Duplicate,221,P86479,19311
+sp|P86496|PR20A_HUMAN Proline-rich protein 20A OS=Homo sapiens OX=9606 GN=PRR20A PE=2 SV=1,P86496,Duplicate,221,P86479,19312
+sp|A0A1B0GTR3|CX05A_HUMAN Uncharacterized protein CXorf51A OS=Homo sapiens OX=9606 GN=CXorf51A PE=4 SV=1,A0A1B0GTR3,Duplicate,108,P0DPH9,20077
+sp|A0A1B0GV22|F236B_HUMAN Protein FAM236B OS=Homo sapiens OX=9606 GN=FAM236B PE=3 SV=1,A0A1B0GV22,Duplicate,79,A0A1B0GUQ0,20091
+sp|B3EWG5|FM25C_HUMAN Protein FAM25C OS=Homo sapiens OX=9606 GN=FAM25C PE=3 SV=1,B3EWG5,Duplicate,89,B3EWG3,20161
+sp|B3EWG6|FM25G_HUMAN Protein FAM25G OS=Homo sapiens OX=9606 GN=FAM25G PE=3 SV=1,B3EWG6,Duplicate,89,B3EWG3,20162
+sp|P0DM63|NPIA8_HUMAN Nuclear pore complex-interacting protein family member A8 OS=Homo sapiens OX=9606 GN=NPIPA8 PE=3 SV=1,P0DM63,Duplicate,369,E9PJI5,20200
+sp|P0DMV1|CT458_HUMAN Cancer/testis antigen family 45 member A8 OS=Homo sapiens OX=9606 GN=CT45A8 PE=3 SV=1,P0DMV1,Duplicate,189,Q5DJT8,20203
+sp|P0DMV2|CT459_HUMAN Cancer/testis antigen family 45 member A9 OS=Homo sapiens OX=9606 GN=CT45A9 PE=3 SV=1,P0DMV2,Duplicate,189,Q5DJT8,20204
+sp|P0DMW5|SIL2B_HUMAN Small integral membrane protein 10-like protein 2B OS=Homo sapiens OX=9606 GN=SMIM10L2B PE=4 SV=1,P0DMW5,Duplicate,78,P0DMW4,20207
+sp|P0DP71|F236C_HUMAN Protein FAM236C OS=Homo sapiens OX=9606 GN=FAM236C PE=3 SV=1,P0DP71,Duplicate,79,A0A1B0GTK5,20208
+sp|P0DXC3|NPIA6_HUMAN Nuclear pore complex-interacting protein family member A6 OS=Homo sapiens OX=9606 GN=NPIPA6 PE=3 SV=1,P0DXC3,Duplicate,369,A0A0B4J1W7,20213
+sp|Q3ZM63|ETDA_HUMAN Embryonic testis differentiation protein homolog A OS=Homo sapiens OX=9606 GN=ETDA PE=4 SV=1,Q3ZM63,Duplicate,59,P0DPP9,20228

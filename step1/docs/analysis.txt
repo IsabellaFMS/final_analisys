@@ -1,0 +1,30 @@
+Consolidated orthogroup analysis
+
+This document describes what the consolidated orthogroup analysis does, which files it uses, which rules it applies, and how to reproduce the same logic in another scenario.
+
+Where the logic lives
+
+- Main entry point: "run_analysis.py"
+- Configuration: "src/orthogroup_analysis/config.py"
+- TSV loading and merging: "src/orthogroup_analysis/loader.py"
+- Consolidation logic: "src/orthogroup_analysis/analyzer.py"
+- CSV and text report export: "src/orthogroup_analysis/writer.py"
+- Data models: "src/orthogroup_analysis/models.py"
+- Default input files: "sources/orthogroups.tsv" and "sources/orthogroups_unassigned_genes.tsv"
+
+What this analysis does
+
+The pipeline reads an orthogroup-per-species table, identifies the taxonomic combinations in which each orthogroup appears, and consolidates the result into one summary row per species combination.
+
+Instead of listing one row per orthogroup, it groups results by taxonomic presence. 
+
+For each combination, the analysis sums:
+
+- how many orthogroups belong to the combination
+- how many proteins exist in total
+- how many proteins count as strict orthologs
+- how many proteins count as strict paralogs
+- how many groups are singletons
+- how many proteins belong to those singleton groups
+- how many orthologs and paralogs exist per species
+

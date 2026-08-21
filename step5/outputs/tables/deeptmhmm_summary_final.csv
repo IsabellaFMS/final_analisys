@@ -1,0 +1,192 @@
+id;size;tmrs;type;signal_present;TMhelix_present;inside_present;inside_1;outside_present;TMbeta_present;signal_1;outside_1;TMhelix_1;TMhelix_2;inside_2;outside_2;TMhelix_3;TMhelix_4;inside_3;classification
+YP_010415322.1;59;0;I+GLOB;No;No;Yes;1-59;No;No;;;;;;;;;;Conserved
+YP_010377184.1;176;0;SP;Yes;No;No;;Yes;No;1-21;22-176;;;;;;;;Partial (CPXV+MPXV)
+YP_010377008.1;126;0;SP;Yes;No;No;;Yes;No;1-20;21-126;;;;;;;;Conserved
+YP_010377012.1;150;0;I+GLOB;No;No;Yes;1-150;No;No;;;;;;;;;;Conserved
+YP_010377013.1;155;0;I+GLOB;No;No;Yes;1-155;No;No;;;;;;;;;;Conserved
+YP_010377018.1;117;0;I+GLOB;No;No;Yes;1-117;No;No;;;;;;;;;;Conserved
+YP_010377019.1;177;0;I+GLOB;No;No;Yes;1-177;No;No;;;;;;;;;;Conserved
+YP_010377021.1;220;0;SP;Yes;No;No;;Yes;No;1-17;18-220;;;;;;;;Conserved
+YP_010377027.1;149;0;I+GLOB;No;No;Yes;1-149;No;No;;;;;;;;;;Conserved
+YP_010377035.1;64;0;I+GLOB;No;No;Yes;1-64;No;No;;;;;;;;;;Conserved
+YP_010377043.1;158;0;I+GLOB;No;No;Yes;1-158;No;No;;;;;;;;;;Conserved
+YP_010377056.1;129;0;I+GLOB;No;No;Yes;1-129;No;No;;;;;;;;;;Conserved
+YP_010377070.1;124;0;I+GLOB;No;No;Yes;1-124;No;No;;;;;;;;;;Conserved
+YP_010377082.1;152;0;I+GLOB;No;No;Yes;1-152;No;No;;;;;;;;;;Conserved
+YP_010377085.1;185;0;I+GLOB;No;No;Yes;1-185;No;No;;;;;;;;;;Conserved
+YP_010377097.1;233;0;I+GLOB;No;No;Yes;1-233;No;No;;;;;;;;;;Conserved
+YP_010377106.1;287;0;I+GLOB;No;No;Yes;1-287;No;No;;;;;;;;;;Conserved
+YP_010377108.1;150;0;I+GLOB;No;No;Yes;1-150;No;No;;;;;;;;;;Conserved
+YP_010377110.1;77;0;I+GLOB;No;No;Yes;1-77;No;No;;;;;;;;;;Conserved
+YP_010377117.1;100;2;TM;No;Yes;Yes;1-6;Yes;No;;28-44;7-27;45-65;66-100;;;;;Conserved
+YP_010377121.1;70;1;TM;No;Yes;Yes;20-70;Yes;No;;1-1;2-19;;;;;;;Conserved
+YP_010377123.1;53;2;TM;No;Yes;Yes;21-31;Yes;No;;1-4;5-20;32-48;;49-53;;;;Partial (CPXV+MPXV+VACV)
+YP_010377138.1;78;0;I+GLOB;No;No;Yes;1-78;No;No;;;;;;;;;;Conserved
+YP_010377140.1;145;0;I+GLOB;No;No;Yes;1-145;No;No;;;;;;;;;;Conserved
+YP_010377141.1;300;0;I+GLOB;No;No;Yes;1-300;No;No;;;;;;;;;;Conserved
+YP_010377144.1;176;0;I+GLOB;No;No;Yes;1-176;No;No;;;;;;;;;;Conserved
+YP_010377148.1;221;0;SP;Yes;No;No;;Yes;No;1-17;18-221;;;;;;;;Conserved
+YP_010377163.1;168;0;I+GLOB;No;No;Yes;1-168;No;No;;;;;;;;;;Conserved
+YP_010377164.1;182;0;SP;Yes;No;No;;Yes;No;1-19;20-182;;;;;;;;Partial (CPXV+MPXV+VACV)
+YP_010377165.1;267;0;SP;Yes;No;No;;Yes;No;1-17;18-267;;;;;;;;Conserved
+YP_010377166.1;221;0;SP;Yes;No;No;;Yes;No;1-16;17-221;;;;;;;;Partial (CPXV+MPXV+VACV)
+YP_010377177.1;153;0;I+GLOB;No;No;Yes;1-153;No;No;;;;;;;;;;Partial (CPXV+MPXV+VARV)
+YP_010377179.1;437;0;I+GLOB;No;No;Yes;1-437;No;No;;;;;;;;;;Conserved
+YP_010377180.1;588;0;I+GLOB;No;No;Yes;1-588;No;No;;;;;;;;;;Conserved
+YP_010377181.1;349;0;SP;Yes;No;No;;Yes;No;1-19;20-349;;;;;;;;Conserved
+YP_010377182.1;246;0;SP;Yes;No;No;;Yes;No;1-16;17-246;;;;;;;;Conserved
+YP_910497.1;49;0;I+GLOB;No;No;Yes;1-49;No;No;;;;;;;;;;Partial (MPXV+VACV)
+YP_910498.1;35;1;TM;No;Yes;Yes;20-35;Yes;No;;1-1;2-19;;;;;;;Partial (MPXV+VACV)
+YP_910501.1;37;0;SP;Yes;No;No;;Yes;No;1-14;15-37;;;;;;;;Partial (CPXV+VACV)
+YP_232885.1;72;0;I+GLOB;No;No;Yes;1-72;No;No;;;;;;;;;;Exclusive (VACV)
+YP_232889.1;109;0;E+GLOB;No;No;No;;Yes;No;;1-109;;;;;;;;Exclusive (VACV)
+YP_232890.1;112;0;I+GLOB;No;No;Yes;1-112;No;No;;;;;;;;;;Conserved
+YP_232894.1;62;0;I+GLOB;No;No;Yes;1-62;No;No;;;;;;;;;;Conserved
+YP_232897.1;137;0;I+GLOB;No;No;Yes;1-137;No;No;;;;;;;;;;Conserved
+YP_232903.1;150;0;I+GLOB;No;No;Yes;1-150;No;No;;;;;;;;;;Conserved
+YP_232911.1;175;0;I+GLOB;No;No;Yes;1-175;No;No;;;;;;;;;;Conserved
+YP_232913.1;220;0;SP;Yes;No;No;;Yes;No;1-17;18-220;;;;;;;;Conserved
+YP_232921.1;149;0;I+GLOB;No;No;Yes;1-149;No;No;;;;;;;;;;Conserved
+YP_232936.1;147;0;I+GLOB;No;No;Yes;1-147;No;No;;;;;;;;;;Conserved
+YP_232963.1;124;0;I+GLOB;No;No;Yes;1-124;No;No;;;;;;;;;;Conserved
+YP_232965.1;63;0;I+GLOB;No;No;Yes;1-63;No;No;;;;;;;;;;Conserved
+YP_232968.1;260;0;I+GLOB;No;No;Yes;1-260;No;No;;;;;;;;;;Conserved
+YP_232971.1;87;1;TM;No;Yes;Yes;1-67;Yes;No;;84-87;68-83;;;;;;;Conserved
+YP_232975.1;153;0;I+GLOB;No;No;Yes;1-153;No;No;;;;;;;;;;Conserved
+YP_232978.1;185;0;I+GLOB;No;No;Yes;1-185;No;No;;;;;;;;;;Conserved
+YP_232999.1;287;0;I+GLOB;No;No;Yes;1-287;No;No;;;;;;;;;;Conserved
+YP_233001.1;150;0;I+GLOB;No;No;Yes;1-150;No;No;;;;;;;;;;Conserved
+YP_233003.1;76;0;I+GLOB;No;No;Yes;1-76;No;No;;;;;;;;;;Conserved
+YP_233010.1;108;2;TM;No;Yes;Yes;1-6;Yes;No;;28-44;7-27;45-65;66-108;;;;;Conserved
+YP_233015.1;90;2;TM;No;Yes;Yes;32-44;Yes;No;;1-10;11-31;45-64;;65-90;;;;Conserved
+YP_233016.1;53;2;TM;No;Yes;Yes;21-31;Yes;No;;1-4;5-20;32-46;;47-53;;;;Partial (CPXV+MPXV+VACV)
+YP_233022.1;117;0;I+GLOB;No;No;Yes;1-117;No;No;;;;;;;;;;Conserved
+YP_233035.1;77;0;I+GLOB;No;No;Yes;1-77;No;No;;;;;;;;;;Conserved
+YP_233036.1;124;0;I+GLOB;No;No;Yes;1-124;No;No;;;;;;;;;;Conserved
+YP_233037.1;270;0;I+GLOB;No;No;Yes;1-270;No;No;;;;;;;;;;Conserved
+YP_233040.1;176;0;I+GLOB;No;No;Yes;1-176;No;No;;;;;;;;;;Conserved
+YP_233047.1;159;1;TM;No;Yes;Yes;1-13;Yes;No;;26-159;14-25;;;;;;;Partial (CPXV+VACV+VARV)
+YP_233048.1;219;0;SP;Yes;No;No;;Yes;No;1-17;18-219;;;;;;;;Conserved
+YP_233049.1;133;0;I+GLOB;No;No;Yes;1-133;No;No;;;;;;;;;;Conserved
+YP_233057.1;162;0;I+GLOB;No;No;Yes;1-162;No;No;;;;;;;;;;Partial (CPXV+VACV+VARV)
+YP_233071.1;182;0;SP;Yes;No;No;;Yes;No;1-19;20-182;;;;;;;;Partial (CPXV+MPXV+VACV)
+YP_233078.1;149;0;I+GLOB;No;No;Yes;1-149;No;No;;;;;;;;;;Conserved
+YP_233083.1;56;0;E+GLOB;No;No;No;;Yes;No;;1-56;;;;;;;;Exclusive (VACV)
+YP_233084.1;53;0;I+GLOB;No;No;Yes;1-53;No;No;;;;;;;;;;Exclusive (VACV)
+YP_233086.1;134;0;I+GLOB;No;No;Yes;1-134;No;No;;;;;;;;;;Partial (CPXV+VACV+VARV)
+YP_233088.1;190;0;SP;Yes;No;No;;Yes;No;1-18;19-190;;;;;;;;Partial (CPXV+MPXV+VACV)
+YP_233089.1;62;0;I+GLOB;No;No;Yes;1-62;No;No;;;;;;;;;;Conserved
+YP_233091.1;331;0;I+GLOB;No;No;Yes;1-331;No;No;;;;;;;;;;Conserved
+YP_233092.1;140;1;SP+TM;Yes;Yes;Yes;125-140;Yes;No;1-19;20-103;104-124;;;;;;;Conserved
+YP_233093.1;112;0;I+GLOB;No;No;Yes;1-112;No;No;;;;;;;;;;Conserved
+YP_233094.1;109;0;E+GLOB;No;No;No;;Yes;No;;1-109;;;;;;;;Exclusive (VACV)
+YP_233095.1;64;0;I+GLOB;No;No;Yes;1-64;No;No;;;;;;;;;;Exclusive (VACV)
+YP_233096.1;48;0;I+GLOB;No;No;Yes;1-48;No;No;;;;;;;;;;Exclusive (VACV)
+YP_233097.1;122;0;SP;Yes;No;No;;Yes;No;1-19;20-122;;;;;;;;Conserved
+YP_233098.1;72;0;I+GLOB;No;No;Yes;1-72;No;No;;;;;;;;;;Exclusive (VACV)
+YP_233099.1;61;0;SP;Yes;No;No;;Yes;No;1-18;19-61;;;;;;;;Exclusive (VACV)
+YP_233100.1;244;0;I+GLOB;No;No;Yes;1-244;No;No;;;;;;;;;;Conserved
+NP_851584.1;69;0;I+GLOB;No;No;Yes;1-69;No;No;;;;;;;;;;Exclusive (CPXV)
+NP_851585.1;88;1;TM;No;Yes;Yes;1-68;Yes;No;;85-88;69-84;;;;;;;Conserved
+NP_851586.1;60;0;I+GLOB;No;No;Yes;1-60;No;No;;;;;;;;;;Exclusive (CPXV)
+NP_851588.1;72;0;SP;Yes;No;No;;Yes;No;1-27;28-72;;;;;;;;Exclusive (CPXV)
+NP_851590.1;160;1;TM;No;Yes;Yes;1-9;Yes;No;;31-160;10-30;;;;;;;Partial (CPXV+VACV+VARV)
+NP_851591.1;50;0;SP;Yes;No;No;;Yes;No;1-31;32-50;;;;;;;;Exclusive (CPXV)
+NP_851593.1;50;0;I+GLOB;No;No;Yes;1-50;No;No;;;;;;;;;;Exclusive (CPXV)
+NP_851781.1;65;0;I+GLOB;No;No;Yes;1-65;No;No;;;;;;;;;;Exclusive (CPXV)
+NP_619795.2;50;0;I+GLOB;No;No;Yes;1-50;No;No;;;;;;;;;;Exclusive (CPXV)
+NP_619818.1;150;0;I+GLOB;No;No;Yes;1-150;No;No;;;;;;;;;;Conserved
+NP_619819.1;155;0;I+GLOB;No;No;Yes;1-155;No;No;;;;;;;;;;Conserved
+NP_619820.1;69;0;I+GLOB;No;No;Yes;1-69;No;No;;;;;;;;;;Exclusive (CPXV)
+NP_619821.1;125;0;I+GLOB;No;No;Yes;1-125;No;No;;;;;;;;;;Conserved
+NP_619826.1;117;0;I+GLOB;No;No;Yes;1-117;No;No;;;;;;;;;;Conserved
+NP_619827.1;177;0;I+GLOB;No;No;Yes;1-177;No;No;;;;;;;;;;Conserved
+NP_619851.1;158;0;I+GLOB;No;No;Yes;1-158;No;No;;;;;;;;;;Conserved
+NP_619864.1;129;0;I+GLOB;No;No;Yes;1-129;No;No;;;;;;;;;;Conserved
+NP_619867.1;312;0;I+GLOB;No;No;Yes;1-312;No;No;;;;;;;;;;Conserved
+NP_619871.1;79;2;TM;No;Yes;Yes;23-50;Yes;No;;1-6;7-22;51-71;;72-79;;;;Conserved
+NP_619877.1;220;0;I+GLOB;No;No;Yes;1-220;No;No;;;;;;;;;;Conserved
+NP_619880.1;63;0;I+GLOB;No;No;Yes;1-63;No;No;;;;;;;;;;Conserved
+NP_619889.1;152;0;I+GLOB;No;No;Yes;1-152;No;No;;;;;;;;;;Conserved
+NP_619892.1;185;0;I+GLOB;No;No;Yes;1-185;No;No;;;;;;;;;;Conserved
+NP_619904.1;237;0;I+GLOB;No;No;Yes;1-237;No;No;;;;;;;;;;Conserved
+NP_619910.1;213;0;I+GLOB;No;No;Yes;1-213;No;No;;;;;;;;;;Conserved
+NP_619913.1;287;0;I+GLOB;No;No;Yes;1-287;No;No;;;;;;;;;;Conserved
+NP_619915.1;150;0;I+GLOB;No;No;Yes;1-150;No;No;;;;;;;;;;Conserved
+NP_619917.1;76;0;I+GLOB;No;No;Yes;1-76;No;No;;;;;;;;;;Conserved
+NP_619920.1;164;0;I+GLOB;No;No;Yes;1-164;No;No;;;;;;;;;;Conserved
+NP_619928.1;70;1;SP+TM;Yes;Yes;Yes;22-70;Yes;No;1-10;11-11;12-21;;;;;;;Conserved
+NP_619929.1;90;2;TM;No;Yes;Yes;32-44;Yes;No;;1-10;11-31;45-64;;65-90;;;;Conserved
+NP_619930.1;53;2;TM;No;Yes;Yes;21-31;Yes;No;;1-4;5-20;32-46;;47-53;;;;Partial (CPXV+MPXV+VACV)
+NP_619931.1;94;0;I+GLOB;No;No;Yes;1-94;No;No;;;;;;;;;;Conserved
+NP_619935.1;77;0;I+GLOB;No;No;Yes;1-77;No;No;;;;;;;;;;Conserved
+NP_619936.1;81;0;I+GLOB;No;No;Yes;1-81;No;No;;;;;;;;;;Exclusive (CPXV)
+NP_619937.1;117;0;I+GLOB;No;No;Yes;1-117;No;No;;;;;;;;;;Conserved
+NP_619944.1;68;0;I+GLOB;No;No;Yes;1-68;No;No;;;;;;;;;;Exclusive (CPXV)
+NP_619945.1;260;0;I+GLOB;No;No;Yes;1-260;No;No;;;;;;;;;;Conserved
+NP_619949.1;76;0;I+GLOB;No;No;Yes;1-76;No;No;;;;;;;;;;Conserved
+NP_619950.1;140;0;I+GLOB;No;No;Yes;1-140;No;No;;;;;;;;;;Conserved
+NP_619951.1;311;0;I+GLOB;No;No;Yes;1-311;No;No;;;;;;;;;;Conserved
+NP_619954.1;176;0;I+GLOB;No;No;Yes;1-176;No;No;;;;;;;;;;Conserved
+NP_619957.1;63;0;I+GLOB;No;No;Yes;1-63;No;No;;;;;;;;;;Conserved
+NP_619960.1;218;0;SP;Yes;No;No;;Yes;No;1-16;17-218;;;;;;;;Conserved
+NP_619961.1;133;0;I+GLOB;No;No;Yes;1-133;No;No;;;;;;;;;;Conserved
+NP_619963.1;81;0;I+GLOB;No;No;Yes;1-81;No;No;;;;;;;;;;Partial (CPXV+MPXV+VACV)
+NP_619966.1;242;0;I+GLOB;No;No;Yes;1-242;No;No;;;;;;;;;;Conserved
+NP_619969.1;162;0;I+GLOB;No;No;Yes;1-162;No;No;;;;;;;;;;Partial (CPXV+VACV+VARV)
+NP_619973.1;186;0;SP;Yes;No;No;;Yes;No;1-21;22-186;;;;;;;;Partial (CPXV+VACV)
+NP_619981.1;179;0;I+GLOB;No;No;Yes;1-179;No;No;;;;;;;;;;Conserved
+NP_619982.1;181;0;SP;Yes;No;No;;Yes;No;1-19;20-181;;;;;;;;Partial (CPXV+MPXV+VACV)
+NP_619983.1;266;0;SP;Yes;No;No;;Yes;No;1-16;17-266;;;;;;;;Conserved
+NP_619984.1;225;0;SP;Yes;No;No;;Yes;No;1-16;17-225;;;;;;;;Partial (CPXV+MPXV+VACV)
+NP_619986.1;90;0;I+GLOB;No;No;Yes;1-90;No;No;;;;;;;;;;Partial (CPXV+MPXV+VACV)
+NP_619996.1;51;0;I+GLOB;No;No;Yes;1-51;No;No;;;;;;;;;;Partial (CPXV+VACV)
+NP_620002.1;153;0;I+GLOB;No;No;Yes;1-153;No;No;;;;;;;;;;Partial (CPXV+MPXV+VARV)
+NP_620003.1;672;0;I+GLOB;No;No;Yes;1-672;No;No;;;;;;;;;;Exclusive (CPXV)
+NP_620004.1;619;0;I+GLOB;No;No;Yes;1-619;No;No;;;;;;;;;;Conserved
+NP_620008.1;64;0;I+GLOB;No;No;Yes;1-64;No;No;;;;;;;;;;Exclusive (CPXV)
+NP_619792.1;246;0;SP;Yes;No;No;;Yes;No;1-21;22-246;;;;;;;;Conserved
+NP_619793.1;355;0;SP;Yes;No;No;;Yes;No;1-18;19-355;;;;;;;;Conserved
+NP_620007.1;65;0;I+GLOB;No;No;Yes;1-65;No;No;;;;;;;;;;Exclusive (CPXV)
+NP_042052.1;150;0;I+GLOB;No;No;Yes;1-150;No;No;;;;;;;;;;Conserved
+NP_042057.1;201;0;I+GLOB;No;No;Yes;1-201;No;No;;;;;;;;;;Partial (CPXV+VACV+VARV)
+NP_042058.1;79;0;E+GLOB;No;No;No;;Yes;No;;1-79;;;;;;;;Exclusive (VARV)
+NP_042061.1;177;0;I+GLOB;No;No;Yes;1-177;No;No;;;;;;;;;;Conserved
+NP_042063.1;220;0;SP;Yes;No;No;;Yes;No;1-17;18-220;;;;;;;;Conserved
+NP_042064.1;70;0;I+GLOB;No;No;Yes;1-70;No;No;;;;;;;;;;Exclusive (VARV)
+NP_042071.1;179;0;I+GLOB;No;No;Yes;1-179;No;No;;;;;;;;;;Conserved
+NP_042083.1;161;0;I+GLOB;No;No;Yes;1-161;No;No;;;;;;;;;;Conserved
+NP_042092.1;60;0;I+GLOB;No;No;Yes;1-60;No;No;;;;;;;;;;Conserved
+NP_042096.1;129;0;I+GLOB;No;No;Yes;1-129;No;No;;;;;;;;;;Conserved
+NP_042100.1;73;1;SP+TM;Yes;Yes;Yes;66-73;Yes;No;1-13;14-49;50-65;;;;;;;Conserved
+NP_042122.1;159;0;I+GLOB;No;No;Yes;1-159;No;No;;;;;;;;;;Conserved
+NP_042125.1;185;0;E+GLOB;No;No;No;;Yes;No;;1-185;;;;;;;;Conserved
+NP_042129.1;189;1;TM;No;Yes;Yes;1-32;Yes;No;;43-189;33-42;;;;;;;Conserved
+NP_042137.1;237;0;I+GLOB;No;No;Yes;1-237;No;No;;;;;;;;;;Conserved
+NP_042146.1;287;0;I+GLOB;No;No;Yes;1-287;No;No;;;;;;;;;;Conserved
+NP_042148.1;150;0;I+GLOB;No;No;Yes;1-150;No;No;;;;;;;;;;Conserved
+NP_042149.1;224;0;I+GLOB;No;No;Yes;1-224;No;No;;;;;;;;;;Conserved
+NP_042150.1;76;0;I+GLOB;No;No;Yes;1-76;No;No;;;;;;;;;;Conserved
+NP_042157.1;95;1;SP+TM;Yes;Yes;Yes;66-95;Yes;No;1-22;23-43;44-65;;;;;;;Conserved
+NP_042165.1;203;4;TM;No;Yes;Yes;1-58;Yes;No;;80-80;59-79;81-103;104-113;135-138;114-134;139-156;157-203;Conserved
+NP_042168.1;117;0;I+GLOB;No;No;Yes;1-117;No;No;;;;;;;;;;Conserved
+NP_042181.1;77;0;I+GLOB;No;No;Yes;1-77;No;No;;;;;;;;;;Conserved
+NP_042182.1;140;0;I+GLOB;No;No;Yes;1-140;No;No;;;;;;;;;;Conserved
+NP_042183.1;270;0;I+GLOB;No;No;Yes;1-270;No;No;;;;;;;;;;Conserved
+NP_042184.1;184;1;TM;No;Yes;Yes;1-31;Yes;No;;58-184;32-57;;;;;;;Conserved
+NP_042186.1;60;0;I+GLOB;No;No;Yes;1-60;No;No;;;;;;;;;;Conserved
+NP_042188.1;77;0;I+GLOB;No;No;Yes;1-77;No;No;;;;;;;;;;Exclusive (VARV)
+NP_042189.1;68;0;I+GLOB;No;No;Yes;1-68;No;No;;;;;;;;;;Conserved
+NP_042190.1;62;0;I+GLOB;No;No;Yes;1-62;No;No;;;;;;;;;;Conserved
+NP_042192.1;74;0;SP;Yes;No;No;;Yes;No;1-12;13-74;;;;;;;;Partial (CPXV+VACV+VARV)
+NP_042194.1;139;0;I+GLOB;No;No;Yes;1-139;No;No;;;;;;;;;;Partial (CPXV+VACV+VARV)
+NP_042195.1;61;1;TM;No;Yes;Yes;1-16;Yes;No;;28-61;17-27;;;;;;;Partial (CPXV+VACV+VARV)
+NP_042196.1;218;0;SP;Yes;No;No;;Yes;No;1-17;18-218;;;;;;;;Conserved
+NP_042202.1;240;0;I+GLOB;No;No;Yes;1-240;No;No;;;;;;;;;;Conserved
+NP_042205.1;162;0;I+GLOB;No;No;Yes;1-162;No;No;;;;;;;;;;Partial (CPXV+VACV+VARV)
+NP_042209.1;71;0;E+GLOB;No;No;No;;Yes;No;;1-71;;;;;;;;Partial (CPXV+VACV+VARV)
+NP_042214.1;66;0;I+GLOB;No;No;Yes;1-66;No;No;;;;;;;;;;Exclusive (VARV)
+NP_042216.1;85;0;I+GLOB;No;No;Yes;1-85;No;No;;;;;;;;;;Exclusive (VARV)
+NP_042217.1;63;0;I+GLOB;No;No;Yes;1-63;No;No;;;;;;;;;;Exclusive (VARV)
+NP_042223.1;65;0;I+GLOB;No;No;Yes;1-65;No;No;;;;;;;;;;Exclusive (VARV)
+NP_042228.1;86;0;E+GLOB;No;No;No;;Yes;No;;1-86;;;;;;;;Exclusive (VARV)
