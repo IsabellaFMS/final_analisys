@@ -23,7 +23,7 @@ from opxv_analysis.analyzer import (
     refine_annotations,
 )
 from opxv_analysis.config import default_paths
-from opxv_analysis.enrichment import run_go_enrichment
+from opxv_analysis.enrichment import run_dual_level_enrichment
 from opxv_analysis.loader import (
     find_enrichment_files,
     load_conservation_groups,
@@ -105,6 +105,7 @@ def run_pipeline() -> None:
     write_text(build_basic_report(summary_df, stats), paths.reports / "final_report.txt")
     write_text(build_enhanced_report(summary_df, stats["total_proteins"]), paths.reports / "enhanced_final_report.txt")
     build_goatools_inputs(eggnog, interpro, conservation_df, paths)
+    run_dual_level_enrichment(paths)
     print("Python analysis completed.", flush=True)
 
 
@@ -123,11 +124,7 @@ def main() -> None:
     sub.add_parser("compare")
     sub.add_parser("annotate-summary")
     sub.add_parser("enrichment-report")
-    enrich = sub.add_parser("enrichment")
-    enrich.add_argument("study_file")
-    enrich.add_argument("population_file")
-    enrich.add_argument("obo_file")
-    enrich.add_argument("output_file")
+    sub.add_parser("enrichment")
 
     args = parser.parse_args()
     command = args.command or "full"
@@ -152,7 +149,7 @@ def main() -> None:
             raise SystemExit("No enrichment_*.tsv file was found.")
         write_enrichment_report(files, paths.reports / "final_enrichment_report.txt")
     elif command == "enrichment":
-        run_go_enrichment(args.study_file, args.population_file, args.obo_file, args.output_file)
+        run_dual_level_enrichment(paths)
     else:
         parser.error(f"Unknown command: {command}")
 

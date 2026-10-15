@@ -10,7 +10,7 @@ from .writer import ensure_dirs
 
 
 def setup_paths(paths: PipelinePaths) -> PipelinePaths:
-    ensure_dirs(paths.outputs, paths.tables, paths.reports, paths.texts, paths.visualizations, paths.goatools)
+    ensure_dirs(paths.outputs, paths.tables, paths.reports, paths.texts, paths.visualizations, paths.goatools, paths.enrichment)
     return paths
 
 

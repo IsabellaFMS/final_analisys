@@ -26,6 +26,9 @@ SPECIES_MAP = {
     "varv_refseq_proteins": "VARV",
 }
 
+# Columns of step1/sources/orthogroups.tsv that are not part of the analysis.
+OUTGROUP_COLUMNS = ("Humanalphaherpesvirus1_proteins", "swinepox_proteins")
+
 # Abbreviations accepted inside the txt conservation file names.
 CONSERVATION_SPECIES = tuple(SPECIES_MAP.values())
 
@@ -43,4 +46,5 @@ def default_paths(root: Path | None = None) -> PipelinePaths:
         texts=outputs / "texts",
         visualizations=outputs / "visualizations",
         goatools=outputs / "goatools",
+        enrichment=outputs / "enrichment_dual_level",
     )

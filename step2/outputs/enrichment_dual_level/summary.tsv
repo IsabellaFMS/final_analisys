@@ -1,0 +1,37 @@
+level	aggregation	group	population	study_in	study_used	dropped	terms_tested	significant	top_term	top_name	top_fe	top_p	top_fdr
+protein		accessory	483	171	69	102	850	54	GO:0005515	protein binding	2.40196	2.357590e-09	2.003952e-06
+orthogroup	union	accessory	125	90	29	61	850	0	GO:0005515	protein binding	2.23499	2.007072e-04	1.706011e-01
+orthogroup	intersection	accessory	125	90	29	61	744	0	GO:0005515	protein binding	2.32095	1.122045e-04	6.459252e-02
+protein		CPXV	483	32	8	24	850	0	GO:0019064	fusion of virus membrane with host plasma membrane	8.625	1.109945e-01	1.000000e+00
+orthogroup	union	CPXV	125	27	6	21	850	0	GO:0019064	fusion of virus membrane with host plasma membrane	6.94444	1.382565e-01	1.000000e+00
+orthogroup	intersection	CPXV	125	27	6	21	744	0	GO:0019064	fusion of virus membrane with host plasma membrane	10.4167	9.406452e-02	1.000000e+00
+protein		CPXV_plus_MPXV	483	2	0	2	0	0					
+orthogroup	union	CPXV_plus_MPXV	125	1	0	1	0	0					
+orthogroup	intersection	CPXV_plus_MPXV	125	1	0	1	0	0					
+protein		CPXV_plus_MPXV_plus_VACV	483	30	9	21	850	7	GO:0034248	regulation of amide metabolic process	53.6667	4.500816e-06	7.651388e-04
+orthogroup	union	CPXV_plus_MPXV_plus_VACV	125	10	3	7	850	0	GO:0034248	regulation of amide metabolic process	41.6667	2.400000e-02	1.000000e+00
+orthogroup	intersection	CPXV_plus_MPXV_plus_VACV	125	10	3	7	744	0	GO:0034248	regulation of amide metabolic process	41.6667	2.400000e-02	1.000000e+00
+protein		CPXV_plus_MPXV_plus_VARV	483	7	0	7	0	0					
+orthogroup	union	CPXV_plus_MPXV_plus_VARV	125	2	0	2	0	0					
+orthogroup	intersection	CPXV_plus_MPXV_plus_VARV	125	2	0	2	0	0					
+protein		CPXV_plus_VACV	483	8	4	4	850	0	GO:0044057	regulation of system process	17.25	5.689605e-02	9.300317e-01
+orthogroup	union	CPXV_plus_VACV	125	4	2	2	850	0	GO:0044057	regulation of system process	31.25	3.187097e-02	5.418065e-01
+orthogroup	intersection	CPXV_plus_VACV	125	4	2	2	744	0	GO:0005515	protein binding	4.80769	4.193548e-02	1.000000e+00
+protein		CPXV_plus_VACV_plus_VARV	483	50	39	11	850	12	GO:0005515	protein binding	2.67119	4.367180e-07	3.712103e-04
+orthogroup	union	CPXV_plus_VACV_plus_VARV	125	14	11	3	850	0	GO:0002697	regulation of immune effector process	4.54545	6.108510e-02	9.468354e-01
+orthogroup	intersection	CPXV_plus_VACV_plus_VARV	125	14	11	3	744	0	GO:0002697	regulation of immune effector process	5.68182	3.852859e-02	1.000000e+00
+protein		MPXV_plus_VACV	483	6	0	6	0	0					
+orthogroup	union	MPXV_plus_VACV	125	3	0	3	0	0					
+orthogroup	intersection	MPXV_plus_VACV	125	3	0	3	0	0					
+protein		VACV	483	18	3	15	850	0	GO:0039526	perturbation by virus of host apoptosis	11.5	9.390953e-03	8.678253e-01
+orthogroup	union	VACV	125	13	2	11	850	0	GO:0039526	perturbation by virus of host apoptosis	12.5	7.870968e-02	1.000000e+00
+orthogroup	intersection	VACV	125	13	2	11	744	0	GO:0039526	perturbation by virus of host apoptosis	15.625	6.322581e-02	1.000000e+00
+protein		VACV_plus_VARV	483	4	2	2	850	0	GO:0016032	viral process	2.58289	1.494034e-01	1.000000e+00
+orthogroup	union	VACV_plus_VARV	125	2	1	1	850	0	GO:0016032	viral process	2.55102	3.920000e-01	1.000000e+00
+orthogroup	intersection	VACV_plus_VARV	125	2	1	1	744	0	GO:0016032	viral process	2.97619	3.360000e-01	1.000000e+00
+protein		VARV	483	14	4	10	850	0	GO:0008202	steroid metabolic process	24.15	4.089456e-02	1.000000e+00
+orthogroup	union	VARV	125	14	4	10	850	0	GO:0008202	steroid metabolic process	15.625	6.322581e-02	1.000000e+00
+orthogroup	intersection	VARV	125	14	4	10	744	0	GO:0008202	steroid metabolic process	15.625	6.322581e-02	1.000000e+00
+protein		core	483	661	414	247	850	54	GO:0005515	protein binding	0.76634	2.357590e-09	2.003952e-06
+orthogroup	union	core	125	155	96	59	850	0	GO:0005515	protein binding	0.626929	2.007072e-04	1.706011e-01
+orthogroup	intersection	core	125	155	96	59	744	0	GO:0044237	cellular metabolic process	1.30208	2.440816e-04	6.459252e-02

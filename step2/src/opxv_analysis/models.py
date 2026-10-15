@@ -13,6 +13,7 @@ class PipelinePaths:
     texts: Path
     visualizations: Path
     goatools: Path
+    enrichment: Path
 
 
 @dataclass(frozen=True)
