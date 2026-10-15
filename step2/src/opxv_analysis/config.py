@@ -34,7 +34,6 @@ CONSERVATION_SPECIES = tuple(SPECIES_MAP.values())
 
 
 def default_paths(root: Path | None = None) -> PipelinePaths:
-    
     root = root or Path(__file__).resolve().parents[2]
     outputs = root / "outputs"
     return PipelinePaths(

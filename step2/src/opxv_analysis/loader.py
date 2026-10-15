@@ -35,7 +35,7 @@ def parse_conservation_list_name(stem: str) -> tuple[str, list[str]] | None:
 
 
 def load_conservation_groups(paths: PipelinePaths) -> pd.DataFrame:
-    
+    """Read the list_*.txt files into one row per protein and species."""
     records = []
     for path in sorted(paths.sources.glob("list_*.txt")):
         parsed = parse_conservation_list_name(path.stem)
@@ -85,7 +85,6 @@ def load_fasta_count(paths: PipelinePaths) -> int:
 
 
 def find_enrichment_files(search_root: Path) -> list[Path]:
-
     return sorted(search_root.glob("enrichment_*.tsv"))
 
 

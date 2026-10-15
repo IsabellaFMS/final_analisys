@@ -94,7 +94,6 @@ def build_protein_conservation_output_path(output_path: Path) -> Path:
 
 
 def build_classified_protein_ids_output_path(output_path: Path) -> Path:
-    
     return output_path.with_name(
         f"{output_path.stem}_classified_protein_ids.txt"
     )

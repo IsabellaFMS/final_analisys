@@ -33,7 +33,7 @@ def _validate_headers(fieldnames: Iterable[str] | None) -> None:
 
 
 def load_bepipred_data(input_file: Path, separator: str) -> List[ProteinRecord]:
-    
+    """Group the residue-level BepiPred-3.0 export into one record per protein."""
     proteins: Dict[str, ProteinRecord] = {}
 
     with input_file.open("r", encoding="utf-8", newline="") as infile:

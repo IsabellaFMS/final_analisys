@@ -20,7 +20,7 @@ class FastaRecord:
 
     @property
     def protein_id(self) -> str:
-        
+        """The accession, taken from the first field of the header."""
         first_field = self.header.split()[0]
         parts = first_field.split("|")
         if len(parts) >= 3 and parts[0] in UNIPROT_DATABASES:

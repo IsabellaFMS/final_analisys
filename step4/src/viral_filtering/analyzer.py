@@ -24,7 +24,6 @@ def extract_exclusion_ids(query_names: Iterable[str | None]) -> ExtractionSummar
 
 
 def filter_records_by_exclusion(records: Iterable[FastaRecord], exclusion_ids: set[str]) -> FilteringSummary:
-
     safe_records: list[FastaRecord] = []
     total_records = 0
     excluded_records = 0

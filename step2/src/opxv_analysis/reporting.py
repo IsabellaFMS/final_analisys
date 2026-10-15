@@ -43,7 +43,6 @@ def build_enhanced_report(summary_df: pd.DataFrame, total_proteins: int) -> str:
 
 
 def annotate_summary_ids(df: pd.DataFrame, go_map: dict[str, str], reactome_map: dict[str, str]) -> pd.DataFrame:
-
     annotated = df.copy()
 
     def replace_ids(text: str, resolver: dict[str, str]) -> str:
@@ -77,7 +76,6 @@ def replace_ranked_items(text: str, resolver: dict[str, str]) -> str:
 
 
 def resolve_summary_labels(df: pd.DataFrame, go_map: dict[str, str] | None = None) -> pd.DataFrame:
-
     resolved = df.copy()
     go_map = go_map or {}
 

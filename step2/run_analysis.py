@@ -44,13 +44,13 @@ def resolve_rscript() -> str:
     if from_path:
         return from_path
 
-    fallback = Path(r"C:\Program Files\R\R-4.5.3\bin\Rscript.exe")
-    if fallback.exists():
-        return str(fallback)
+    configured = os.environ.get("OPXV_RSCRIPT")
+    if configured and Path(configured).exists():
+        return configured
 
     raise SystemExit(
-        "Rscript was not found. Install R or add Rscript to PATH before using "
-        "the heatmap or full commands."
+        "Rscript was not found. Install R and add Rscript to PATH, or set "
+        "OPXV_RSCRIPT to its full path, before using the heatmap or full commands."
     )
 
 
@@ -65,7 +65,6 @@ def run_heatmap() -> None:
     print("Running the R heatmap step...", flush=True)
     command = [resolve_rscript(), str(script_path)]
     env = os.environ.copy()
-    env["R_LIBS_USER"] = str(Path.home() / "R" / "win-library" / "4.5")
     env["OPXV_PROJECT_ROOT"] = str(default_paths().root)
     env["LANGUAGE"] = "en"  # keeps R warnings/errors in English on localized systems
     subprocess.run(command, check=True, env=env)

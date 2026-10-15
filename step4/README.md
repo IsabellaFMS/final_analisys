@@ -1,14 +1,23 @@
 # Step 4: host homology filtering
 
-Removes from the viral proteome the proteins that share identical 12-residue
-with the human proteome, so that later steps do not select epitopes
-capable of cross-reacting with host sequences. The filtered FASTA is the input
-of steps 5,6 and 7.
+Removes from the viral proteome the proteins that contain a 12-residue window
+with 9 or more residues identical to a human 12-mer, so that later steps do not
+select epitopes capable of cross-reacting with host sequences. The filtered
+FASTA is the input of steps 5, 6, 7 and 8.
 
 The k-mer comparison itself is not run here. It was executed separately against
-human Uniprot entries, and this step consumes its output table: each row of
-"sources/viral_hits.tsv" is one 12-mer shared between a viral protein and a
-human one, with the position on both sides.
+human UniProt entries, with a window of 12 residues and an acceptance threshold
+of 9 identical residues out of 12, and this step consumes its output table: each
+row of "sources/viral_hits.tsv" is one 12-residue window shared between a viral
+protein and a human one, with the position on both sides.
+
+Of the 19,709 rows, 1,078 are exact 12/12 matches and 13,995 match at 9/12,
+over 641 distinct viral proteins. The threshold matters: the comparison is not
+restricted to identical stretches, and describing it that way would understate
+how much of the proteome the filter removes. The version of the external
+comparison scripts and the release of the human reference were not recorded,
+so the deposited hit table and this threshold are what makes the filter
+reproducible.
 
 ## Order of execution
 
@@ -46,6 +55,14 @@ in practice; now it is enforced.
 python run_analysis.py
 ```
 
+## Outputs
+
+- "outputs/reports/exclusion_ids.txt", the 641 accessions with at least one hit
+- "outputs/fasta/safe_sequences.fasta", the filtered proteome, 191 records
+- "outputs/reports/flagged_reintegrated_accessions.txt", the 33 reincorporated
+  duplicates identical to an excluded accession, as a tab-separated table with
+  "protein_id", "kept_instead", "pathogen" and "source_index"
+
 ## Reincorporation of the step 3 duplicates
 
 Step 3 removes sequences that are byte-identical to one it keeps, which takes
@@ -61,7 +78,10 @@ One caveat travels with the 45, and the execution summary counts it on the
 line "of which identical to an excluded accession":
 
 **33 of the 45 are identical to an accession this step excluded for host
-homology.** Identical sequences share every 12-mer, so those 33 share the human
+homology**, and they are listed in
+"outputs/reports/flagged_reintegrated_accessions.txt", one row each with the
+accession kept in their place, the pathogen and the position they held in the
+raw proteome. Identical sequences share every 12-mer, so those 33 share the human
 12-mers that got their twin excluded. They do not appear in "viral_hits.tsv"
 only because the external comparison collapsed repeated sequences and reported
 each hit once, through a single representative. Reincorporating them therefore

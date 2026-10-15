@@ -4,7 +4,6 @@ import pandas as pd
 
 
 def annotate_dataframe(df: pd.DataFrame, cons_map: dict[str, str]) -> pd.DataFrame:
-    
     if df.empty:
         return df.copy()
 

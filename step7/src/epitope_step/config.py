@@ -8,7 +8,6 @@ CLASSIFICATION_FILE_NAME = "orthogroups_consolidated_analysis_classified_protein
 
 
 def resolve_classification_file(root: Path) -> Path:
-
     root = root.resolve()
     step1_report = root.parent / "step1" / "outputs" / CLASSIFICATION_FILE_NAME
     if step1_report.is_file():

@@ -191,7 +191,9 @@ def run_enrichment(
             "p_uncorrected": f"{result.p_uncorrected:.6e}",
             "p_fdr_bh": f"{result.p_fdr_bh:.6e}",
         })
-    rows.sort(key=lambda row: float(row["p_fdr_bh"]))
+    # The GO id is part of the sort key so that terms tying on both p-values
+    # come out in the same order whatever order GOATOOLS produced them in.
+    rows.sort(key=lambda row: (float(row["p_fdr_bh"]), float(row["p_uncorrected"]), row["GO"]))
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w", encoding="utf-8", newline="") as handle:

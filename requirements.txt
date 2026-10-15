@@ -1,10 +1,16 @@
-# Steps 1, 3, 4 and 6 need nothing beyond the standard library.
+# Verified on Python 3.13.7. Python 3.11 is the minimum, for the typing syntax
+# the steps use.
 
-# Step 2, enrichment subcommands only.
-goatools>=1.4
+# Steps 1, 3, 4, 6 and 8 need nothing beyond the standard library.
 
-# Steps 5 and 7.
-pandas>=2.0
+# Step 2: annotation merge, GO term distribution and the GOATOOLS test.
+goatools==1.6.5
+statsmodels==0.14.6
 
-# Test runner.
-pytest>=7.4
+# goatools imports multipletests from statsmodels.sandbox.stats.multicomp.
+# Recent statsmodels keeps that module but no longer exports the name, so step 2
+# installs the attribute itself before importing goatools. Moving the statsmodels
+# pin means re-checking that shim in step2/src/opxv_analysis/enrichment.py.
+
+# Steps 2, 5 and 7.
+pandas==3.0.2

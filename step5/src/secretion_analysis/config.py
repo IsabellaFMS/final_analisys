@@ -25,7 +25,6 @@ DEFAULT_FINAL_MERGE = Path("outputs/tables/comparative_results_signalp6_deep_fin
 
 
 def resolve_classification_file(project_root: Path) -> Path:
-
     project_root = project_root.resolve()
     step1_report = project_root.parent / "step1" / "outputs" / CLASSIFICATION_FILE_NAME
     if step1_report.is_file():

@@ -118,7 +118,6 @@ def parse_signalp(txt_path: Path, gff_path: Path) -> pd.DataFrame:
 
 
 def classify_deep_topology(regions: list[dict]) -> str:
-
     # A transmembrane helix and a signal peptide are reported first because they
     # are what decides whether the protein is accessible. Only when neither is
     # present does the label fall back to the globular forms, built from which

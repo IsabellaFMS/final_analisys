@@ -30,7 +30,6 @@ def combine_go_terms(interpro_value: str, eggnog_value: str) -> str | None:
 
 
 def merge_annotations(eggnog_df: pd.DataFrame, interpro_df: pd.DataFrame) -> pd.DataFrame:
-    
     interpro = interpro_df.copy()
     selected = interpro[[
         "Protein accession",
@@ -66,7 +65,7 @@ def strip_go_source_tag(term: str) -> str:
 
 
 def refine_go_list(go_string: str, godag) -> str | None:
-    
+    """Drop the GO terms that a more specific descendant in the same list makes redundant."""
     if pd.isna(go_string) or not str(go_string).strip():
         return None
     original = {
@@ -173,7 +172,6 @@ def compare_annotation_coverage(eggnog_df: pd.DataFrame, interpro_df: pd.DataFra
 
 
 def build_goatools_inputs(eggnog_df: pd.DataFrame, interpro_df: pd.DataFrame, conservation_df: pd.DataFrame, paths: PipelinePaths) -> list[str]:
-
     eggnog = eggnog_df.rename(columns={"query": "protein_id"}).copy()
     interpro = interpro_df.rename(columns={"Protein accession": "protein_id"}).copy()
     conservation = conservation_df.rename(columns={"Protein_ID": "protein_id", "Conservation_Group": "conservation_group"}).copy()
