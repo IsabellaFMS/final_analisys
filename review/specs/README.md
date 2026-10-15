@@ -1,6 +1,6 @@
 # Specs — deposit fixes
 
-Implementation specs derived from `TAREFAS_CLAUDE_CODE.md`. One spec per unit of
+Implementation specs derived from `../implementation_brief.md`. One spec per unit of
 work, each with its own preconditions, exact edits, acceptance test and rollback.
 They are written to be executed in order; where an order is not required the spec
 says so.

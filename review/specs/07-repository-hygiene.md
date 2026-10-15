@@ -46,8 +46,8 @@ Spec 02 rewrites this file; the rewrite should not reproduce either.
 
 | File | Why |
 |---|---|
-| `TAREFAS_CLAUDE_CODE.md` | The implementation brief. It is working material: it describes the defects, not the method, and its name references a tool. Not part of a data deposit. |
-| `specs/` | This directory. Same reasoning. |
+| the implementation brief | Working material: it describes the defects, not the method. Not part of a data deposit. Now `review/implementation_brief.md`. |
+| `specs/` | This directory. Same reasoning. Now `review/specs/`. |
 | `go_enrichment_dual_level.py` (root) | Dead code once spec 02 ports it into `step2/src/opxv_analysis/enrichment.py`. Two copies of the enrichment logic, one of them unreachable, is a defect a reviewer will find. |
 
 Keep all three under version control (they are the record of why the deposit

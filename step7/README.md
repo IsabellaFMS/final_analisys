@@ -7,18 +7,18 @@ step 4 produced.
 
 ## Inputs
 
-Read from "sources/":
+Read from `sources/`:
 
-- "mhci/full_predictions/prediction_*.csv", the MHC-I predictions.
-- "mhcii/DRB1/DRB1_predict_result.csv" and
-  "mhcii/DQA1/DQA1_predict_result.csv", the MHC-II predictions. The
+- `mhci/full_predictions/prediction_*.csv`, the MHC-I predictions.
+- `mhcii/DRB1/DRB1_predict_result.csv` and
+  `mhcii/DQA1/DQA1_predict_result.csv`, the MHC-II predictions. The
   parameter files next to them record the alleles and the IEDB method used
-  ("netmhciipan_el").
-- "safe_sequences.fasta", the filtered proteome from step 4. Epitopes are tied
+  (`netmhciipan_el`).
+- `safe_sequences.fasta`, the filtered proteome from step 4. Epitopes are tied
   back to proteins by the position of the sequence in this file, through the
-  "seq_num" column, so the FASTA has to be the same one submitted to IEDB.
-- "orthogroups_consolidated_analysis_classified_protein_ids.txt", the step 1
-  report. It is read from "step1/outputs/" when available and from this local
+  `seq_num` column, so the FASTA has to be the same one submitted to IEDB.
+- `orthogroups_consolidated_analysis_classified_protein_ids.txt`, the step 1
+  report. It is read from `step1/outputs/` when available and from this local
   copy otherwise.
 
 
@@ -30,4 +30,4 @@ python run_analysis.py
 
 ## Outputs
 
-"outputs/mhci_final.csv" and "outputs/mhcii_final.csv".
+`outputs/mhci_final.csv` and `outputs/mhcii_final.csv`.
