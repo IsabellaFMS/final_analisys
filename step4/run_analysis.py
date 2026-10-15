@@ -12,6 +12,7 @@ from viral_filtering import format_summary, resolve_command_paths, run_extractio
 
 
 def _add_reincorporation_arguments(parser: argparse.ArgumentParser) -> None:
+    parser.add_argument("--flagged-output", help="Flagged reincorporated accessions. Defaults to outputs/reports/flagged_reintegrated_accessions.txt.")
     parser.add_argument("--duplicate-report", help="Step 3 removed-records CSV. Defaults to ../step3/outputs/reports/removed_viral_proteins.csv.")
     parser.add_argument("--duplicate-fasta", help="Step 3 removed-records FASTA. Defaults to ../step3/outputs/fasta/removed_viral_proteins.fasta.")
 
@@ -60,7 +61,7 @@ def main(argv: list[str] | None = None) -> int:
             result = run_filtering(paths)
         else:
             result = run_full_step(paths)
-        print(format_summary(command, result))
+        print(format_summary(command, result, paths.flagged_output))
         return 0
     except Exception as exc:
         print(f"Error: {exc}", file=sys.stderr)

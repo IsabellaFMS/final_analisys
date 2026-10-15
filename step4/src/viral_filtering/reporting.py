@@ -1,9 +1,11 @@
 from __future__ import annotations
 
+from pathlib import Path
+
 from .models import StepResult
 
 
-def format_summary(command: str, result: StepResult) -> str:
+def format_summary(command: str, result: StepResult, flagged_path: Path | None = None) -> str:
     lines = [
         "Execution summary",
         f"Workflow: {command}",
@@ -32,4 +34,6 @@ def format_summary(command: str, result: StepResult) -> str:
                 f"Safe records written: {result.reincorporation.safe_count}",
             ]
         )
+        if flagged_path is not None:
+            lines.append(f"Flagged accessions written to: {flagged_path}")
     return "\n".join(lines)

@@ -13,6 +13,7 @@ class CommandPaths:
     exclusion_input: Path | None = None
     exclusion_output: Path | None = None
     fasta_output: Path | None = None
+    flagged_output: Path | None = None
     duplicate_report: Path | None = None
     duplicate_fasta: Path | None = None
 
@@ -105,6 +106,7 @@ def resolve_command_paths(command: str, project_root: Path, args: Namespace) -> 
         "exclusion_input": "outputs/reports/exclusion_ids.txt",
         "exclusion_output": "outputs/reports/exclusion_ids.txt",
         "fasta_output": "outputs/fasta/safe_sequences.fasta",
+        "flagged_output": "outputs/reports/flagged_reintegrated_accessions.txt",
     }
     reincorporating = command in {"run", "filter"}
     return CommandPaths(
@@ -122,6 +124,7 @@ def resolve_command_paths(command: str, project_root: Path, args: Namespace) -> 
         exclusion_input=_resolve(project_root, getattr(args, "exclusion_input", None), defaults["exclusion_input"] if command == "filter" else None),
         exclusion_output=_resolve(project_root, getattr(args, "exclusion_output", None), defaults["exclusion_output"] if command in {"run", "extract"} else None),
         fasta_output=_resolve(project_root, getattr(args, "fasta_output", None), defaults["fasta_output"] if command in {"run", "filter"} else None),
+        flagged_output=_resolve(project_root, getattr(args, "flagged_output", None), defaults["flagged_output"] if reincorporating else None),
         duplicate_report=(
             _resolve_step3_artifact(project_root, getattr(args, "duplicate_report", None), "reports", DUPLICATE_REPORT_NAME)
             if reincorporating

@@ -6,13 +6,14 @@ from .analyzer import extract_exclusion_ids, filter_records_by_exclusion, reinco
 from .config import CommandPaths
 from .loaders import load_duplicate_report, load_exclusion_ids, load_fasta_records, load_query_names
 from .models import ReincorporationSummary, StepResult
-from .writer import write_exclusion_ids, write_fasta_records
+from .writer import write_exclusion_ids, write_fasta_records, write_flagged_verdicts
 
 
 def _filter_and_write(paths: CommandPaths, records, exclusion_ids: set[str]):
     filtering = filter_records_by_exclusion(records=records, exclusion_ids=exclusion_ids)
     reincorporation = _reincorporate(paths, records, exclusion_ids)
     write_fasta_records(reincorporation.safe_records, paths.fasta_output)
+    write_flagged_verdicts(reincorporation.verdicts, paths.flagged_output)
     return filtering, reincorporation
 
 
