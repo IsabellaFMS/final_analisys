@@ -1,0 +1,7 @@
+Your MHC class II prediction completed on the IEDB servers (http://tools.iedb.org/mhcii/) and the result is attached in csv format.
+
+Input parameters
+Method: netmhciipan_el
+Number of sequences: 191
+Input sequences: attached
+Alleles: DQA1*02:01-DQB1*03:01, DQA1*02:01-DQB1*06:02, DQA1*03:02-DQB1*05:01, DQA1*03:02-DQB1*06:03

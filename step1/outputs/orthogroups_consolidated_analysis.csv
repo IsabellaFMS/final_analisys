@@ -1,0 +1,12 @@
+conservationCategory,taxonomicGroup,presentSpeciesCount,totalOrthogroups,totalProteins,strictOrthologProteins,strictParalogProteins,singletonGroups,singletonProteins,CPXV_Orthologs,CPXV_Paralogs,MPXV_Orthologs,MPXV_Paralogs,VACV_Orthologs,VACV_Paralogs,VARV_Orthologs,VARV_Paralogs
+Conserved,CPXV + MPXV + VACV + VARV,4,155,661,620,41,0,0,155,13,155,8,155,15,155,5
+Partially_Conserved,CPXV + MPXV + VACV,3,10,30,30,0,0,0,10,0,10,0,10,0,0,0
+Partially_Conserved,CPXV + MPXV + VARV,3,2,7,6,1,0,0,2,1,2,0,0,0,2,0
+Partially_Conserved,CPXV + VACV + VARV,3,14,50,42,8,0,0,14,1,0,0,14,2,14,5
+Partially_Conserved,CPXV + MPXV,2,1,2,2,0,0,0,1,0,1,0,0,0,0,0
+Partially_Conserved,CPXV + VACV,2,4,8,8,0,0,0,4,0,0,0,4,0,0,0
+Partially_Conserved,MPXV + VACV,2,3,6,6,0,0,0,0,0,3,0,3,0,0,0
+Partially_Conserved,VACV + VARV,2,2,4,4,0,0,0,0,0,0,0,2,0,2,0
+Species-Specific,CPXV,1,27,32,27,5,27,32,27,5,0,0,0,0,0,0
+Species-Specific,VACV,1,13,18,13,5,13,18,0,0,0,0,13,5,0,0
+Species-Specific,VARV,1,14,14,14,0,14,14,0,0,0,0,0,0,14,0

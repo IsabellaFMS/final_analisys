@@ -1,0 +1,31 @@
+GO_Term	CPXV	MPXV	VACV	VARV
+ATP binding	11	11	11	10
+DNA binding	16	15	16	16
+DNA-directed 5'-3' RNA polymerase activity	8	8	8	8
+biological process involved in symbiotic interaction	17	18	18	17
+cytosol	5	5	6	5
+evasion of host immune response	8	8	14	6
+heterocyclic compound binding	2	2	2	2
+host cell	24	20	31	20
+host cell cytoplasm	19	16	26	16
+host cell nucleus	8	5	15	6
+host intracellular region	21	18	28	18
+hydrolase activity	3	3	3	3
+membrane	9	7	8	8
+negative regulation of molecular function in another organism	9	7	17	7
+other organism cell membrane	6	6	8	4
+other organism part	21	17	27	18
+protein binding	24	12	16	17
+protein kinase activity	3	3	3	2
+regulation of RNA biosynthetic process	8	5	15	6
+regulation of killing of cells of another organism	24	18	27	15
+ribonucleoside triphosphate phosphatase activity	3	3	3	3
+serine-type endopeptidase inhibitor activity	3	3	3	3
+suppression by virus of host apoptotic process	9	8	11	6
+symbiont-mediated perturbation of host defenses	21	21	36	15
+symbiont-mediated suppression of host defenses	9	9	18	9
+viral envelope	6	6	6	5
+viral life cycle	15	15	16	14
+virion component	25	21	28	24
+virus-mediated perturbation of host defense response	8	8	14	6
+zinc ion binding	4	4	4	4
