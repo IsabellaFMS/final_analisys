@@ -3,7 +3,7 @@
 Removes from the viral proteome the proteins that contain a 12-residue window
 with 9 or more residues identical to a human 12-mer, so that later steps do not
 select epitopes capable of cross-reacting with host sequences. The filtered
-FASTA is the input of steps 5, 6, 7 and 8.
+FASTA is the input of steps 5, 6 and 7.
 
 The k-mer comparison itself is not run here. It was executed separately against
 human UniProt entries, with a window of 12 residues and an acceptance threshold

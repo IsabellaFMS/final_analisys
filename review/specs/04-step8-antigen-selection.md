@@ -1,5 +1,13 @@
 # 04 — Step 8: final antigen selection (new step)
 
+**Not applied. Withdrawn at the authors' request after it had been implemented
+and verified.** The step was built, it selected the two expected antigens, and
+it was then removed from the deposit along with every reference to it. The spec
+is kept because the brief asks for this step and the question of whether the
+deposit should contain it is likely to come back — including from a reviewer,
+since the manuscript describes the rules. If it is reinstated, the commit that
+removed it holds the working implementation.
+
 Covers TASK 6 of the brief. Independent of specs 01–03.
 
 This is the step that produces the manuscript's main conclusion — the two

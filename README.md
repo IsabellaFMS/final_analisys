@@ -1,12 +1,11 @@
 # Orthopoxvirus epitope selection pipeline
 
-Eight analysis steps used to select conserved, non-host-homologous B-cell and
+Seven analysis steps used to select conserved, non-host-homologous B-cell and
 T-cell epitope candidates from the proteomes of four orthopoxviruses: _Orthopoxvirus cowpox_
 (CPXV), _monkeypox_ (MPXV), _vaccinia_ (VACV) and _variola_ (VARV). The final
 products are two candidate tables for MHC-I and MHC-II epitopes and one table
 of linear B-cell epitopes, each annotated with the conservation class of its
-source protein, and the shortlist of antigens that satisfy every selection
-rule.
+source protein.
 
 Each step is a self-contained project with its own "sources/", "outputs/" and
 "run_analysis.py". The predictions themselves are not produced here: the
@@ -21,7 +20,7 @@ conserved (all four), partially conserved (two or three), species-specific
 (one). Two species columns present in the OrthoFinder output,
 "Humanalphaherpesvirus1_proteins" and "swinepox_proteins", are excluded from
 the analysis. The protein classification report produced here is read by steps
-2, 5, 6, 7 and 8.
+2, 5, 6 and 7.
 
 "sources/orthogroups.tsv" is the concatenation of OrthoFinder's assigned
 orthogroup table with "orthogroups_unassigned_genes.tsv": 339 rows
@@ -73,7 +72,7 @@ exact 12/12 matches and 13,995 match at 9/12, over 641 distinct viral
 proteins. The k-mer comparison against human UniProt entries was run outside
 this repository, with a window of 12 residues and an acceptance threshold of 9
 identical residues; the step consumes the resulting hit table and writes the
-filtered FASTA that steps 5 to 8 use. It
+filtered FASTA that steps 5 to 7 use. It
 also puts back the 45 sequence-duplicated accessions that step 3 removed, each
 at its original position, and reports which of them are identical to an
 accession the filter excluded.
@@ -95,22 +94,13 @@ bind each epitope, and annotates the conservation class. MHC-I uses a rank
 cutoff of 0.75; MHC-II is filtered at 5, 7.5 and 10 and the results are
 consolidated.
 
-**Step 8 - final antigen selection.** Applies the selection rules to the step
-5, 6 and 7 tables: a B-cell epitope at the high-stringency BepiPred cutoff,
-conservation across all four species, surface accessibility by the
-SignalP6/DeepTMHMM consensus, one representative per orthogroup chosen on
-epitope profile and allelic coverage, and the exclusion of orthologues
-truncated relative to their orthogroup consensus length. Two antigens survive.
-The step writes a verdict per candidate, so the selection can be audited row by
-row. See "step8/README.md".
-
 ## Running the pipeline
 
 Each step has its own "run_analysis.py". Steps 1 and 3 have no internal
 dependency and can run in any order; step 2 needs the step 1 classification
 report and "step1/sources/orthogroups.tsv"; steps 5, 6 and 7 need the step 1
-report; step 4 needs the step 3 output; step 7 also needs the step 4 output;
-and step 8 needs steps 1, 4, 5, 6 and 7.
+report; step 4 needs the step 3 output; and step 7 also needs the step 4
+output.
 
 ```bash
 cd step1 && python run_analysis.py && cd ..
@@ -120,7 +110,6 @@ cd step4 && python run_analysis.py && cd ..
 cd step5 && python run_analysis.py && cd ..
 cd step6 && python run_analysis.py && cd ..
 cd step7 && python run_analysis.py && cd ..
-cd step8 && python run_analysis.py && cd ..
 ```
 
 Python 3.11 or newer, with the packages in "requirements.txt". The R step needs
@@ -152,17 +141,16 @@ recorded beyond the deposited FASTA itself.
 
 ## Column names across steps
 
-Step 8 joins the step 5, 6 and 7 tables, which name the same thing differently.
-The identifier column is "id" in step 5, "Accession" in step 6 and
-"Protein_ID" in steps 7 and 8. Separators also differ: steps 5 and 6 write
-semicolon-separated CSV, step 7 comma-separated, and steps 1, 2 and 8
+The steps name the same thing differently, which matters when their tables are
+read together. The identifier column is "id" in step 5, "Accession" in step 6
+and "Protein_ID" in step 7. Separators also differ: steps 5 and 6 write
+semicolon-separated CSV, step 7 comma-separated, and steps 1 and 2
 tab-separated. Both are kept as deposited, because the published tables are
 cited as they stand.
 
 ## Scope
 
-The pipeline selects and annotates candidates, up to and including the final
-antigen shortlist. It does not perform docking,
+The pipeline selects and annotates candidates. It does not perform docking,
 structural modelling, population coverage analysis or any experimental
 validation, and it does not run the predictors themselves. Rank and score
 cutoffs come from the defaults of each predictor unless stated otherwise in the
