@@ -87,15 +87,18 @@ def run_pipeline() -> None:
     conservation_df = load_conservation_groups(paths)
     (paths.tables / "detailed_conservation_groups.tsv").unlink(missing_ok=True)
 
-    # The merged and refined tables are intermediate steps towards the
-    # consolidated table, so only the latter is written to disk.
+    # The merge and the refinement are stages towards the consolidated table, so
+    # only the latter is written to disk. The last name is what the consolidated
+    # table used to be called, removed here so a rerun over an older working copy
+    # does not leave both versions side by side.
     (paths.tables / "step1_eggnog_interpro_merge.tsv").unlink(missing_ok=True)
     (paths.tables / "step2_refined_annotations.tsv").unlink(missing_ok=True)
+    (paths.tables / "step3_final_consolidated_annotations.tsv").unlink(missing_ok=True)
 
     merged = merge_annotations(eggnog, interpro)
     refined = refine_annotations(merged, go_dag, reactome_map)
     consolidated = consolidate_annotations(refined, go_dag)
-    write_table(consolidated, paths.tables / "step3_final_consolidated_annotations.tsv")
+    write_table(consolidated, paths.tables / "final_consolidated_annotations.tsv")
 
     summary_df, stats = build_group_summary(eggnog, interpro, conservation_df, load_fasta_count(paths))
     labeled_summary_df = resolve_summary_labels(summary_df, load_go_name_map(paths))

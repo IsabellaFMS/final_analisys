@@ -261,7 +261,7 @@ tables_dir <- file.path(base_dir, "outputs", "tables")
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 dir.create(tables_dir, recursive = TRUE, showWarnings = FALSE)
 
-annotation_table <- file.path(tables_dir, "step3_final_consolidated_annotations.tsv")
+annotation_table <- file.path(tables_dir, "final_consolidated_annotations.tsv")
 obo_file <- file.path(base_dir, "sources", "go-basic.obo")
 # The protein-to-species assignment comes from the step 1 OrthoFinder tables.
 orthogroup_files <- file.path(

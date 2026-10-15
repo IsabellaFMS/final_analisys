@@ -90,7 +90,7 @@ The test takes no path arguments: its inputs are always
 
 Under `outputs/`:
 
-- `tables/step3_final_consolidated_annotations.tsv`, the consolidated
+- `tables/final_consolidated_annotations.tsv`, the consolidated
   annotation table, and the intermediate tables that produce it. One row per
   protein, with each source in its own column: `eggNOG_Description`,
   `Interpro_Accession` and `Interpro_Description`, then the GO terms split by

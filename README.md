@@ -46,7 +46,7 @@ Three properties of this step are worth stating, because each one is a question
 a reader is likely to have:
 
 - 36 of the 832 proteins (37 to 86 residues) are absent from
-  "step2/outputs/tables/step3_final_consolidated_annotations.tsv": neither
+  "step2/outputs/tables/final_consolidated_annotations.tsv": neither
   InterProScan nor eggNOG-mapper returned anything for them. That table
   therefore has 796 rows, while the denominator used throughout is 832, which
   counts those 36 as unannotated.
