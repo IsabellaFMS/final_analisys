@@ -1,0 +1,3 @@
+Protein_ID	Description	Species	Orthogroup	Length	Consensus_Length	Length_Ratio	Reported_Stringency	Epitope_Count	MHC_I_Alleles	MHC_II_Alleles	Accessibility_Group	Replaces
+NP_619793.1	CrmB or CPXV005 protein [Cowpox virus]	CPXV	OG0000003	355	349	1.02	0.2012	3	38	41	Group 1: High Confidence Consensus (SP+/THMM+)	YP_233097.1
+YP_010377182.1	Chemokine binding protein [Monkeypox virus]	MPXV	OG0000008	246	246	1.00	0.2512	4	23	35	Group 1: High Confidence Consensus (SP+/THMM+)	-

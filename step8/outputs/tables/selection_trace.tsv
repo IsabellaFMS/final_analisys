@@ -1,0 +1,30 @@
+Protein_ID	Orthogroup	Verdict	Detail
+NP_619793.1	OG0000003	selected_rule5_substitute	replaces the truncated YP_233097.1; epitopes reported at 0.2012
+YP_233097.1	OG0000003	dropped_rule5_truncated	122 aa against a consensus of 349 aa (0.35)
+NP_619792.1	OG0000008	dropped_rule4_representative	YP_010377182.1 represents OG0000008 with 4 epitopes and 58 alleles against 2 and 62
+YP_010377182.1	OG0000008	selected	full length at 1.00 of the consensus
+NP_619880.1	OG0000048	dropped_rule3_accessibility	Group 4: Negative Consensus (SP-/THMM-)
+YP_232965.1	OG0000048	dropped_rule3_accessibility	Group 4: Negative Consensus (SP-/THMM-)
+NP_042150.1	OG0000084	dropped_rule3_accessibility	Group 4: Negative Consensus (SP-/THMM-)
+NP_619917.1	OG0000084	dropped_rule3_accessibility	Group 4: Negative Consensus (SP-/THMM-)
+YP_233003.1	OG0000084	dropped_rule3_accessibility	Group 4: Negative Consensus (SP-/THMM-)
+YP_010377117.1	OG0000090	dropped_rule3_accessibility	Group 4: Negative Consensus (SP-/THMM-)
+YP_233010.1	OG0000090	dropped_rule3_accessibility	Group 4: Negative Consensus (SP-/THMM-)
+NP_619935.1	OG0000099	dropped_rule3_accessibility	Group 4: Negative Consensus (SP-/THMM-)
+NP_042181.1	OG0000108	dropped_rule3_accessibility	Group 4: Negative Consensus (SP-/THMM-)
+NP_619949.1	OG0000108	dropped_rule3_accessibility	Group 4: Negative Consensus (SP-/THMM-)
+YP_010377138.1	OG0000108	dropped_rule3_accessibility	Group 4: Negative Consensus (SP-/THMM-)
+YP_233035.1	OG0000108	dropped_rule3_accessibility	Group 4: Negative Consensus (SP-/THMM-)
+YP_010377035.1	OG0000137	dropped_rule3_accessibility	Group 4: Negative Consensus (SP-/THMM-)
+NP_620007.1	OG0000188	dropped_rule2_conservation	species present: CPXV
+NP_851781.1	OG0000188	dropped_rule2_conservation	species present: CPXV
+NP_619996.1	OG0000196	dropped_rule2_conservation	species present: CPXV, VACV
+YP_910501.1	OG0000196	dropped_rule2_conservation	species present: CPXV, VACV
+YP_233099.1	OG0000204	dropped_rule2_conservation	species present: VACV
+YP_233095.1	OG0000207	dropped_rule2_conservation	species present: VACV
+NP_851591.1	OG0000286	dropped_rule2_conservation	species present: CPXV
+NP_619820.1	OG0000293	dropped_rule2_conservation	species present: CPXV
+NP_619936.1	OG0000295	dropped_rule2_conservation	species present: CPXV
+YP_233083.1	OG0000323	dropped_rule2_conservation	species present: VACV
+NP_042217.1	OG0000333	dropped_rule2_conservation	species present: VARV
+NP_042223.1	OG0000335	dropped_rule2_conservation	species present: VARV
