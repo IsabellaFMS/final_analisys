@@ -194,11 +194,14 @@ def build_goatools_inputs(eggnog_df: pd.DataFrame, interpro_df: pd.DataFrame, co
     population_file.write_text("".join(f"{protein}\t{';'.join(sorted(values))}\n" for protein, values in go_map.items()), encoding="utf-8")
 
     created = [population_file.name]
-    unique_groups = conservation.drop_duplicates(subset=["protein_id"])["conservation_group"].unique()
-    for group in unique_groups:
+    # One row per protein: the conservation frame carries one row per protein and
+    # species, so writing it as it comes repeats each accession once per species
+    # in its combination.
+    by_protein = conservation.drop_duplicates(subset=["protein_id"])
+    for group in by_protein["conservation_group"].unique():
         group_file = paths.goatools / f"goatools_study_{sanitize_group_name(group)}.txt"
-        proteins = conservation[conservation["conservation_group"] == group]["protein_id"].tolist()
-        group_file.write_text("\n".join(proteins), encoding="utf-8")
+        proteins = by_protein[by_protein["conservation_group"] == group]["protein_id"]
+        group_file.write_text("".join(f"{protein}\n" for protein in proteins), encoding="utf-8")
         created.append(group_file.name)
     return created
 
