@@ -2,8 +2,9 @@
 
 Consolidates the OrthoFinder orthogroup tables and classifies every viral
 protein by how many of the four orthopoxviruses share its orthogroup. The
-classification report produced here is the input that steps 2, 4, 5 and 6 use
-to label their own results.
+classification report produced here is the input that steps 5, 6 and 7 use
+to label their own results. Step 2 does not read it: it needs only
+`sources/orthogroups.tsv`, from which it maps each protein to its orthogroup.
 
 ## Inputs
 

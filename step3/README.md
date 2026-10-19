@@ -16,8 +16,8 @@ In `sources/`:
 - `human.fasta`, the human proteome as downloaded from UniProt.
 - `viral_proteins.fasta`, the RefSeq proteomes of the four orthopoxviruses.
 
-Both are the raw downloads. They keep the names they were given by the run that
-produced them, which is why one of them is in Portuguese.
+Both are the raw downloads, kept under the names the run that produced them
+gave them.
 
 ## How cleaning works
 

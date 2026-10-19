@@ -28,6 +28,9 @@ python run_analysis.py
 - `outputs/tables/deeptmhmm_summary_final.csv`
 - `outputs/tables/comparative_results_signalp6_deep_final.csv`
 
+The SignalP table holds 28 rows, not 191: the loader drops the 163 proteins
+SignalP6 called `OTHER`. The other two tables carry all 191.
+
 The comparative table is the reading table, and it carries five columns: `id`,
 `Prediction SignalP` (the SignalP6 call), `Prediction Deep` (the DeepTMHMM
 topology), `strategic_classification` and `classification`.

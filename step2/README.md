@@ -50,7 +50,6 @@ Required in `sources/`:
 
 - `eggnog_annotations.tsv`
 - `interpro_orthopoxvirus.tsv`
-- `classified_protein_ids.txt` (the step 1 report, under its short name)
 - `go-basic.obo`
 - `all_refseq_proteins.fasta`
 - `list_*.txt`, one file per conservation group. The group and the species are
@@ -91,10 +90,9 @@ The test takes no path arguments: its inputs are always
 Under `outputs/`:
 
 - `tables/final_consolidated_annotations.tsv`, the consolidated
-  annotation table, and the intermediate tables that produce it. One row per
-  protein, with each source in its own column: `eggNOG_Description`,
-  `Interpro_Accession` and `Interpro_Description`, then the GO terms split by
-  namespace into `GO_BP`, `GO_CC` and `GO_MF`. Each GO cell carries the
+  annotation table. One row per protein, with each source in its own column:
+  `eggNOG_Description`, `Interpro_Accession` and `Interpro_Description`, then
+  the GO terms split by namespace into `GO_BP`, `GO_CC` and `GO_MF`. Each GO cell carries the
   identifier and the term name together, as `GO:0005576 (extracellular
   region)`, and the terms it lists are already pruned of parents that a more
   specific descendant makes redundant. A namespace with no term reads `-`. Of
@@ -112,7 +110,14 @@ Under `outputs/`:
 - `enrichment_dual_level/`, the test results: `protein_level__<group>.tsv`,
   `orthogroup_union__<group>.tsv` and `orthogroup_intersection__<group>.tsv`
   for each conservation group and for the accessory-versus-all comparison,
-  plus `summary.tsv` with one row per comparison and `run_log.txt`. Also
+  plus `summary.tsv` with one row per comparison and `run_log.txt`. Three
+  groups write no result table, so the directory holds 27 of those tables and
+  not 36: `CPXV_plus_MPXV`, `CPXV_plus_MPXV_plus_VARV` and `MPXV_plus_VACV`
+  do have members, but none of them carries a GO annotation, so the study set
+  is empty once it is restricted to the annotated population and there is
+  nothing to test. `summary.tsv` still carries a row for all twelve
+  comparisons at both levels, with `study_used` at zero and `dropped` equal to
+  `study_in` for those three, which is where the empty outcome is read. Also
   `core_annotated_orthogroups.txt` (96 identifiers) and
   `accessory_annotated_orthogroups.txt` (29), the two partitions the orthogroup
   level is built on

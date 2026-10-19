@@ -20,7 +20,7 @@ conserved (all four), partially conserved (two or three), species-specific
 (one). Two species columns present in the OrthoFinder output,
 "Humanalphaherpesvirus1_proteins" and "swinepox_proteins", are excluded from
 the analysis. The protein classification report produced here is read by steps
-2, 5, 6 and 7.
+5, 6 and 7.
 
 "sources/orthogroups.tsv" is the concatenation of OrthoFinder's assigned
 orthogroup table with "orthogroups_unassigned_genes.tsv": 339 rows
@@ -54,9 +54,9 @@ a reader is likely to have:
   test propagates counts to ancestor terms. Intersecting the pruned sets and
   intersecting ancestor-closed sets both give 744 terms tested and the same FDR
   for the top term.
-- The run log reports 41 obsolete GO identifiers that the deposited
-  "go-basic.obo" (release 2024-01-17) no longer contains. GOATOOLS skips them
-  without error.
+- 45 of the GO identifiers in the annotations are flagged "is_obsolete" in the
+  deposited "go-basic.obo" (release 2024-01-17). The file still defines them,
+  so they are tested as deposited and GOATOOLS raises no error.
 
 **Step 3 - proteome cleaning.** Drops duplicated sequences and sequences
 shorter than the k-mer size from the raw human and viral proteomes, since
@@ -91,16 +91,17 @@ describes the procedure in full.
 **Step 7 - T-cell epitopes.** Filters the IEDB MHC-I and MHC-II prediction
 exports by rank, maps each peptide back to its protein, counts how many alleles
 bind each epitope, and annotates the conservation class. MHC-I uses a rank
-cutoff of 0.75; MHC-II is filtered at 5, 7.5 and 10 and the results are
-consolidated.
+cutoff of 0.75. MHC-II is filtered at rank 10: the code applies 5, 7.5 and 10
+and unions the three, but the first two sets are contained in the third, so the
+consolidated set is the rank 10 set and the three cutoffs have no effect on it.
 
 ## Running the pipeline
 
 Each step has its own "run_analysis.py". Steps 1 and 3 have no internal
-dependency and can run in any order; step 2 needs the step 1 classification
-report and "step1/sources/orthogroups.tsv"; steps 5, 6 and 7 need the step 1
-report; step 4 needs the step 3 output; and step 7 also needs the step 4
-output.
+dependency and can run in any order; step 2 needs
+"step1/sources/orthogroups.tsv", which it reads to map each protein to its
+orthogroup; steps 5, 6 and 7 need the step 1 classification report; step 4
+needs the step 3 output; and step 7 also needs the step 4 output.
 
 ```bash
 cd step1 && python run_analysis.py && cd ..
@@ -114,7 +115,7 @@ cd step7 && python run_analysis.py && cd ..
 
 Python 3.11 or newer, with the packages in "requirements.txt". The R step needs
 "dplyr", "tidyr", "plotly" and "htmlwidgets", and "Rscript" on PATH or
-"OPXV_RSCRIPT" pointing at it.
+"OPXV_RSCRIPT" pointing at it. Their versions were not recorded.
 
 See the "README.md" inside each step for its parameters and outputs.
 

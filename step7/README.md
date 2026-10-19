@@ -9,7 +9,9 @@ step 4 produced.
 
 Read from `sources/`:
 
-- `mhci/full_predictions/prediction_*.csv`, the MHC-I predictions.
+- `mhci/full_predictions/prediction_*.csv`, the MHC-I predictions, one file per
+  allele. There is no parameter file for this run; the alleles are the 21 file
+  names.
 - `mhcii/DRB1/DRB1_predict_result.csv` and
   `mhcii/DQA1/DQA1_predict_result.csv`, the MHC-II predictions. The
   parameter files next to them record the alleles and the IEDB method used
@@ -30,4 +32,10 @@ python run_analysis.py
 
 ## Outputs
 
-`outputs/mhci_final.csv` and `outputs/mhcii_final.csv`.
+`outputs/mhci_final.csv` and `outputs/mhcii_final.csv`, one row per protein,
+allele and peptide, with `Allele Count` giving the number of distinct alleles
+that bind the peptide and `Alleles` listing them.
+
+MHC-I is filtered at percentile rank 0.75. MHC-II is filtered at rank 10: the
+code applies 5, 7.5 and 10 and unions the three, but the first two sets are
+contained in the third, so the consolidated set is the rank 10 set.
