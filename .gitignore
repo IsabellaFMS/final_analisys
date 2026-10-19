@@ -9,3 +9,7 @@ __pycache__/
 
 .venv/
 venv/
+
+# Not part of the deposit
+AUDITORIA_FINAL_*.md
+REGISTRO_CORRECOES.md
