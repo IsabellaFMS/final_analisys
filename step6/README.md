@@ -41,7 +41,24 @@ python run_analysis.py
 - `outputs/tables/epitopes.csv`, one row per epitope: `Accession`, `ID`,
   `Epitope`, the average, maximum and median score, `Start position`,
   `End position`, `Length` and `Classification (conservation)`, the class the
-  step 1 report gives the source protein. The column carries the same name it
-  has in the step 7 tables, and a protein absent from the report would read
-  `Unclassified` — none does in the current run.
+  step 1 report gives the source protein. A protein absent from the report
+  would read `Unclassified`; none does in the current run.
 - `outputs/fasta/*.fasta`, one file per protein with candidates.
+- `outputs/tables/epitopes_0.2012.csv` and `outputs/tables/epitopes_0.2512.csv`,
+  the same table at the two higher cutoffs, written by rerunning with
+  `--cutoff`. `epitopes.csv` is the default 0.1512 run and holds 473 epitopes;
+  the other two hold 168 and 40. The 0.2512 table is the one the manuscript
+  reports.
+
+```bash
+python run_analysis.py --cutoff 0.2512 --output-dir <dir>
+```
+
+The output directory is not cleared between runs, so a rerun at a different
+cutoff into the same directory leaves the previous run's FASTA files behind.
+Pass a fresh `--output-dir` for each cutoff.
+
+This step writes the conservation class as `Conserved`, `Partial (CPXV+MPXV)`
+and `Exclusive (CPXV)`. Step 7 writes the same ten categories under the same
+column name but spells them differently, so the two tables do not join on that
+column.
