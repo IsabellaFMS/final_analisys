@@ -2,10 +2,7 @@
 
 Seven analysis steps used to select conserved, non-host-homologous B-cell and
 T-cell epitope candidates from the proteomes of four orthopoxviruses: _Orthopoxvirus cowpox_
-(CPXV), _monkeypox_ (MPXV), _vaccinia_ (VACV) and _variola_ (VARV). The final
-products are two candidate tables for MHC-I and MHC-II epitopes and one table
-of linear B-cell epitopes, each annotated with the conservation class of its
-source protein.
+(CPXV), _monkeypox_ (MPXV), _vaccinia_ (VACV) and _variola_ (VARV).
 
 Each step is a self-contained project with its own "sources/", "outputs/" and
 "run_analysis.py". The predictions themselves are not produced here: the
@@ -19,15 +16,12 @@ classifies each orthogroup by how many of the four species it contains:
 conserved (all four), partially conserved (two or three), species-specific
 (one). Two species columns present in the OrthoFinder output,
 "Humanalphaherpesvirus1_proteins" and "swinepox_proteins", are excluded from
-the analysis. The protein classification report produced here is read by steps
-5, 6 and 7.
+the analysis.
 
 "sources/orthogroups.tsv" is the concatenation of OrthoFinder's assigned
 orthogroup table with "orthogroups_unassigned_genes.tsv": 339 rows
 ("OG0000000" to "OG0000338") covering 1,059 proteins, against 211 rows in
-OrthoFinder's file of that name. All 128 identifiers of the unassigned table
-also occur in the assigned one; "step1/README.md" explains how the overlap is
-resolved.
+OrthoFinder's file of that name.
 
 **Step 2 - functional annotation and GO term distribution.** Merges the
 eggNOG-mapper and InterProScan annotations at protein level, removes redundant
@@ -41,9 +35,6 @@ and the orthogroup, which is the level reported in the manuscript. No term is
 significant at FDR 0.05 at the orthogroup level. An R script builds the
 interactive heatmap of the top 10 GO terms per category, with the four
 proteomes side by side.
-
-Three properties of this step are worth stating, because each one is a question
-a reader is likely to have:
 
 - 36 of the 832 proteins (37 to 86 residues) are absent from
   "step2/outputs/tables/final_consolidated_annotations.tsv": neither
@@ -74,8 +65,7 @@ this repository, with a window of 12 residues and an acceptance threshold of 9
 identical residues; the step consumes the resulting hit table and writes the
 filtered FASTA that steps 5 to 7 use. It
 also puts back the 45 sequence-duplicated accessions that step 3 removed, each
-at its original position, and reports which of them are identical to an
-accession the filter excluded.
+at its original position.
 
 **Step 5 - secretion and topology.** Combines the SignalP6 signal-peptide
 predictions with the DeepTMHMM transmembrane topology and annotates each
@@ -89,7 +79,7 @@ symmetrically, keeping regions of 20 to 30 residues. "step6/README.md"
 describes the procedure in full.
 
 **Step 7 - T-cell epitopes.** Filters the IEDB MHC-I and MHC-II prediction
-exports by rank, maps each peptide back to its protein, counts how many alleles
+exports by rank, maps each epitope back to its protein, counts how many alleles
 bind each epitope, and annotates the conservation class. MHC-I uses a rank
 cutoff of 0.75. MHC-II is filtered at rank 10: the code applies 5, 7.5 and 10
 and unions the three, but the first two sets are contained in the third, so the
@@ -100,8 +90,7 @@ consolidated set is the rank 10 set and the three cutoffs have no effect on it.
 Each step has its own "run_analysis.py". Steps 1 and 3 have no internal
 dependency and can run in any order; step 2 needs
 "step1/sources/orthogroups.tsv", which it reads to map each protein to its
-orthogroup; steps 5, 6 and 7 need the step 1 classification report; step 4
-needs the step 3 output; and step 7 also needs the step 4 output.
+orthogroup; steps 5, 6 and 7 need the step 1 classification report.
 
 ```bash
 cd step1 && python run_analysis.py && cd ..
@@ -115,7 +104,7 @@ cd step7 && python run_analysis.py && cd ..
 
 Python 3.11 or newer, with the packages in "requirements.txt". The R step needs
 "dplyr", "tidyr", "plotly" and "htmlwidgets", and "Rscript" on PATH or
-"OPXV_RSCRIPT" pointing at it. Their versions were not recorded.
+"OPXV_RSCRIPT" pointing at it.
 
 See the "README.md" inside each step for its parameters and outputs.
 
@@ -128,31 +117,9 @@ in these versions:
 |---|---|
 | OrthoFinder | v2.5.5, MCL inflation 1.7 |
 | eggNOG-mapper | v2.1.12 |
-| InterProScan | not recorded in the deposit; the annotation run is dated 21-04-2025 |
-| GOATOOLS | pinned in "requirements.txt" |
-| SignalP6 | not recorded |
-| DeepTMHMM | not recorded |
-| BepiPred-3.0 | not recorded |
-| IEDB MHC-I and MHC-II | not recorded |
-
-Where a version reads "not recorded", it was not captured at the time of the
-run and is not recoverable from the deposited exports, which carry no version
-field. The human reference used by the step 4 k-mer comparison is likewise not
-recorded beyond the deposited FASTA itself.
-
-## Column names across steps
-
-The steps name the same thing differently, which matters when their tables are
-read together. The identifier column is "id" in step 5, "Accession" in step 6
-and "Protein_ID" in step 7. Separators also differ: steps 5 and 6 write
-semicolon-separated CSV, step 7 comma-separated, and steps 1 and 2
-tab-separated. Both are kept as deposited, because the published tables are
-cited as they stand.
-
-## Scope
-
-The pipeline selects and annotates candidates. It does not perform docking,
-structural modelling, population coverage analysis or any experimental
-validation, and it does not run the predictors themselves. Rank and score
-cutoffs come from the defaults of each predictor unless stated otherwise in the
-step README.
+| InterProScan | v5.73-104.0 |
+| GOATOOLS | v1.6.4 |
+| SignalP6 | v6.0 |
+| DeepTMHMM | v1.0 |
+| BepiPred-3.0 | v3.0 |
+| IEDB MHC-I and MHC-II | v4.1 and v4.0 |

@@ -3,7 +3,7 @@
 Consolidates the OrthoFinder orthogroup tables and classifies every viral
 protein by how many of the four orthopoxviruses share its orthogroup. The
 classification report produced here is the input that steps 5, 6 and 7 use
-to label their own results. Step 2 does not read it: it needs only
+to label their own results. Step 2 needs only
 `sources/orthogroups.tsv`, from which it maps each protein to its orthogroup.
 
 ## Inputs
@@ -12,10 +12,6 @@ Both files come from the same OrthoFinder run:
 
 - `sources/orthogroups.tsv`
 - `sources/orthogroups_unassigned_genes.tsv`
-
-The two files share 128 `Orthogroup` IDs. The loader groups rows by
-`Orthogroup`, merges the protein lists per species and keeps one record per
-group, so those 128 groups are not counted twice.
 
 ## Excluded species
 
@@ -34,9 +30,7 @@ The consolidation therefore covers only:
 
 ## Conservation classes
 
-The classification is derived from the number of species detected, not from a
-hard-coded set of four, so adding a species to the input does not require
-changing the code:
+The classification is derived from the number of species detected:
 
 - `Conserved`: present in all detected species
 - `Partially_Conserved`: present in 2 to `n - 1` species
